@@ -1,0 +1,927 @@
+elements:
+- class: IfcLightFixture
+  tag: LIGHT-LIVING-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '1'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-DINING-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - C
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-MASTER-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '1'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-BED2-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcCableCarrierSegment
+  tag: CONDUIT-L1-MAIN
+  system_type: LIGHTING
+  nominal_diameter: 0.02
+  placement:
+    storey: L1
+    from_grid:
+    - '2'
+    - C
+    to_grid:
+    - '1'
+    - B
+    from_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    to_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    routing: DIRECT
+    slope: 0.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-2
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-3
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-4
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-5
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-6
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-7
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-8
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-9
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-10
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-11
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-12
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-13
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-14
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-15
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L1-DL-16
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-2
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-3
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-4
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-5
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-6
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-7
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-8
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-9
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-10
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-11
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-12
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-13
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-14
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-15
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-16
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-17
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-L2-DL-18
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - B
+    storey: L2
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-FL-18W-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '4'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-FL-18W-2
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '4'
+    - D
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-FL-36W-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - E
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.6
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-BRACKET-1
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '1'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.2
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []
+- class: IfcLightFixture
+  tag: LIGHT-BRACKET-2
+  fixture_type: DOWNLIGHT
+  predefined_type: POINTSOURCE
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '4'
+    - B
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 2.2
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  power_watts: 12.0
+  wattage: 12.0
+  ports: []

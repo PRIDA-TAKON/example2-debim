@@ -1,0 +1,33 @@
+elements:
+- class: IfcRoof
+  tag: ROOF-LEANTO-MAIN
+  material: ROOF_METALSHEET_PE
+  roof_type: SHED
+  pitch_deg: 12.0
+  placement:
+    boundary:
+    - - '1'
+      - B
+    - - '4'
+      - B
+    - - '4'
+      - E
+    - - '1'
+      - E
+    storey: Roof
+    offset_z: 0.0
+    overhang: 1.0
+    ridge_orientation: X
+  covering:
+    tile_type: CONCRETE_TILE
+    pitch: 12.0
+    insulation: true
+    fascia_board: true
+    ridge_cap: true
+  framing:
+    truss_type: STEEL_TRUSS
+    spacing: 1.0
+    rafter_spacing: 1.0
+    purlin_spacing: 0.32
+    steel_weight_per_sqm: 18.0
+  children: []

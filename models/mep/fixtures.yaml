@@ -1,0 +1,172 @@
+elements:
+- class: IfcSanitaryTerminal
+  tag: WC-1
+  terminal_type: WATER_CLOSET
+  predefined_type: WATERCLOSET
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - D
+    storey: L1
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: BASIN-1
+  terminal_type: WATER_CLOSET
+  predefined_type: WASHHANDBASIN
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - D
+    storey: L1
+    offset_x: 1.2
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: WC-2
+  terminal_type: WATER_CLOSET
+  predefined_type: WATERCLOSET
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '1'
+    - C
+    storey: L2
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: WC-3
+  terminal_type: WATER_CLOSET
+  predefined_type: WATERCLOSET
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - E
+    storey: L2
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: BASIN-2
+  terminal_type: WATER_CLOSET
+  predefined_type: WASHHANDBASIN
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - C
+    storey: L2
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: BASIN-3
+  terminal_type: WATER_CLOSET
+  predefined_type: WASHHANDBASIN
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - C
+    storey: L2
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: SHOWER-1
+  terminal_type: WATER_CLOSET
+  predefined_type: SHOWER
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - D
+    storey: L2
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: SHOWER-2
+  terminal_type: WATER_CLOSET
+  predefined_type: SHOWER
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '3'
+    - D
+    storey: L2
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []
+- class: IfcSanitaryTerminal
+  tag: SHOWER-3
+  terminal_type: WATER_CLOSET
+  predefined_type: SHOWER
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '1'
+    - C
+    storey: L1
+    offset_x: 0.5
+    offset_y: 0.5
+    offset_z: 0.0
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  ports: []

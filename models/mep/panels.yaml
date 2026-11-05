@@ -1,0 +1,21 @@
+elements:
+- class: IfcElectricDistributionBoard
+  tag: MDB-CU-50A
+  board_type: CONSUMER_UNIT
+  predefined_type: CONSUMERUNIT
+  width: 0.0
+  depth: 0.0
+  height: 0.0
+  placement:
+    grid:
+    - '2'
+    - C
+    storey: L1
+    offset_x: 0.0
+    offset_y: 0.0
+    offset_z: 1.5
+    distance: 0.0
+    side: INTERIOR
+    standoff: 0.0
+  circuits_count: 12
+  ports: []

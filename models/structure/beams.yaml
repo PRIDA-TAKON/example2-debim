@@ -1,0 +1,987 @@
+elements:
+- class: IfcBeam
+  tag: GB1-1A-2A
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - A
+    to_grid:
+    - '2'
+    - A
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1A-1B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - A
+    to_grid:
+    - '1'
+    - B
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-2A-2B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '2'
+    - A
+    to_grid:
+    - '2'
+    - B
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1B-2B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - '2'
+    - B
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-2B-4B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '2'
+    - B
+    to_grid:
+    - '4'
+    - B
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1B-1C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - '1'
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-2B-2C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '2'
+    - B
+    to_grid:
+    - '2'
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-4B-4C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '4'
+    - B
+    to_grid:
+    - '4'
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1C-2C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - C
+    to_grid:
+    - '2'
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-2C-4C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '2'
+    - C
+    to_grid:
+    - '4'
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1C-1D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - C
+    to_grid:
+    - '1'
+    - D
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-4C-4D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '4'
+    - C
+    to_grid:
+    - '4'
+    - D
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1D-3D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - D
+    to_grid:
+    - '3'
+    - D
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-3D-4D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '3'
+    - D
+    to_grid:
+    - '4'
+    - D
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1D-1E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - D
+    to_grid:
+    - '1'
+    - E
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-3D-3E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '3'
+    - D
+    to_grid:
+    - '3'
+    - E
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-4D-4E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '4'
+    - D
+    to_grid:
+    - '4'
+    - E
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-1E-2E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - E
+    to_grid:
+    - '2'
+    - E
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-2E-3E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '2'
+    - E
+    to_grid:
+    - '3'
+    - E
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB1-3E-4E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '3'
+    - E
+    to_grid:
+    - '4'
+    - E
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB2-2E-2F
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '2'
+    - E
+    to_grid:
+    - '2'
+    - F
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB2-4E-4F
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '4'
+    - E
+    to_grid:
+    - '4'
+    - F
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB2-2F-4F
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '2'
+    - F
+    to_grid:
+    - '4'
+    - F
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB2-STAIR-3C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '3'
+    - C
+    to_grid:
+    - '4'
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-1B-2B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - '2'
+    - B
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-2B-4B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '2'
+    - B
+    to_grid:
+    - '4'
+    - B
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-1C-2C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '1'
+    - C
+    to_grid:
+    - '2'
+    - C
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-2C-4C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '2'
+    - C
+    to_grid:
+    - '4'
+    - C
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-1D-3D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '1'
+    - D
+    to_grid:
+    - '3'
+    - D
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-3D-4D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '3'
+    - D
+    to_grid:
+    - '4'
+    - D
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-1E-2E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '1'
+    - E
+    to_grid:
+    - '2'
+    - E
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-2E-3E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '2'
+    - E
+    to_grid:
+    - '3'
+    - E
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B1-3E-4E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.45
+  placement:
+    from_grid:
+    - '3'
+    - E
+    to_grid:
+    - '4'
+    - E
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B2-BALCONY-1A-2A
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '1'
+    - A
+    to_grid:
+    - '2'
+    - A
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B2-BAY-1B-1D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - '1'
+    - D
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: B2-STAIR-3C-4D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '3'
+    - C
+    to_grid:
+    - '4'
+    - C
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: STAIR-BEAM-3C-3D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '3'
+    - C
+    to_grid:
+    - '3'
+    - D
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: RB-1B-4B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.3
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - '4'
+    - B
+    storey: Roof
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: RB-1C-4C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.3
+  placement:
+    from_grid:
+    - '1'
+    - C
+    to_grid:
+    - '4'
+    - C
+    storey: Roof
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: RB-1D-4D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.3
+  placement:
+    from_grid:
+    - '1'
+    - D
+    to_grid:
+    - '4'
+    - D
+    storey: Roof
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: RB-1E-4E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.3
+  placement:
+    from_grid:
+    - '1'
+    - E
+    to_grid:
+    - '4'
+    - E
+    storey: Roof
+    offset_z: 0.0
+    allow_cantilever: false
+- class: IfcBeam
+  tag: GB-CANT-1B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - 1 - 0.60
+    - B
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: GB-CANT-1C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - C
+    to_grid:
+    - 1 - 0.60
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: GB-CANT-EDGE
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - 1 - 0.60
+    - B
+    to_grid:
+    - 1 - 0.60
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-1B
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - 1 - 0.60
+    - B
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-1C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - C
+    to_grid:
+    - 1 - 0.60
+    - C
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-1D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - D
+    to_grid:
+    - 1 - 0.60
+    - D
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-1E
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - E
+    to_grid:
+    - 1 - 0.60
+    - E
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-EDGE-WEST
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - 1 - 0.60
+    - B
+    to_grid:
+    - 1 - 0.60
+    - E
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-FRONT-1
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - '1'
+    - B - 0.70
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-FRONT-2
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '2'
+    - B
+    to_grid:
+    - '2'
+    - B - 0.70
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-EDGE-FRONT
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.2
+    depth: 0.4
+  placement:
+    from_grid:
+    - '1'
+    - B - 0.70
+    to_grid:
+    - '2'
+    - B - 0.70
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: GB-CANT-STAIR-4C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '4'
+    - C
+    to_grid:
+    - 4 + 0.50
+    - C
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: GB-CANT-STAIR-4D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '4'
+    - D
+    to_grid:
+    - 4 + 0.50
+    - D
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: GB-EDGE-STAIR
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - 4 + 0.50
+    - C
+    to_grid:
+    - 4 + 0.50
+    - D
+    storey: L1
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-STAIR-4C
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '4'
+    - C
+    to_grid:
+    - 4 + 0.50
+    - C
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-CANT-STAIR-4D
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - '4'
+    - D
+    to_grid:
+    - 4 + 0.50
+    - D
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true
+- class: IfcBeam
+  tag: B-EDGE-STAIR
+  material: CONC_210
+  profile:
+    shape: BOX
+    width: 0.15
+    depth: 0.35
+  placement:
+    from_grid:
+    - 4 + 0.50
+    - C
+    to_grid:
+    - 4 + 0.50
+    - D
+    storey: L2
+    offset_z: 0.0
+    allow_cantilever: true

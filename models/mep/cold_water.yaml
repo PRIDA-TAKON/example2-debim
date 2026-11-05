@@ -1,0 +1,139 @@
+elements:
+- class: IfcPipeSegment
+  tag: PIPE-SOIL-MAIN
+  system_type: COLD_WATER
+  nominal_diameter: 0.1
+  placement:
+    storey: L1
+    from_grid:
+    - '3'
+    - D
+    to_grid:
+    - '3'
+    - E
+    from_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    to_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    routing: DIRECT
+    slope: 0.0
+  ports: []
+- class: IfcPipeSegment
+  tag: PIPE-WASTE-MAIN
+  system_type: COLD_WATER
+  nominal_diameter: 0.05
+  placement:
+    storey: L1
+    from_grid:
+    - '1'
+    - C
+    to_grid:
+    - '1'
+    - D
+    from_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    to_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    routing: DIRECT
+    slope: 0.0
+  ports: []
+- class: IfcPipeSegment
+  tag: PIPE-CW-SUPPLY
+  system_type: COLD_WATER
+  nominal_diameter: 0.02
+  placement:
+    storey: L1
+    from_grid:
+    - '1'
+    - A
+    to_grid:
+    - '3'
+    - E
+    from_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    to_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    routing: DIRECT
+    slope: 0.0
+  ports: []
+- class: IfcPipeSegment
+  tag: PIPE-REFRIG-18K
+  system_type: COLD_WATER
+  nominal_diameter: 0.012
+  placement:
+    storey: L1
+    from_grid:
+    - '1'
+    - B
+    to_grid:
+    - '4'
+    - E
+    from_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    to_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    routing: DIRECT
+    slope: 0.0
+  ports: []
+- class: IfcPipeSegment
+  tag: SOIL-PIPE-4IN-L1
+  system_type: COLD_WATER
+  nominal_diameter: 0.1
+  placement:
+    storey: L1
+    from_grid:
+    - '3'
+    - C
+    to_grid:
+    - '3'
+    - A
+    from_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    to_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    routing: DIRECT
+    slope: 0.0
+  ports: []
+- class: IfcPipeSegment
+  tag: WASTE-PIPE-2IN-L1
+  system_type: COLD_WATER
+  nominal_diameter: 0.05
+  placement:
+    storey: L1
+    from_grid:
+    - '4'
+    - C
+    to_grid:
+    - '4'
+    - A
+    from_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    to_offset:
+    - 0.0
+    - 0.0
+    - 0.0
+    routing: DIRECT
+    slope: 0.0
+  ports: []

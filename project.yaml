@@ -1,0 +1,175 @@
+schema: IFC4-Minimal
+project:
+  id: PRJ-FAMILY5
+  name: บ้านครอบครัวไทยร่วมสมัย 5 (.debim)
+  revisions: []
+  units:
+    length: METER
+    area: SQUARE_METER
+    volume: CUBIC_METER
+spatial_structure:
+  storeys:
+  - id: Foundation
+    name: ระดับฐานราก (Foundation Level)
+    elevation: -1.5
+    height: 1.5
+  - id: L1
+    name: ชั้น 1 (Ground Floor)
+    elevation: 0.6
+    height: 3.15
+  - id: L2
+    name: ชั้น 2 (Upper Floor)
+    elevation: 3.75
+    height: 2.9
+  - id: Roof
+    name: ชั้นหลังคา (Roof Level)
+    elevation: 6.65
+    height: 1.85
+grids:
+  axes_x:
+    '1': 0.0
+    '2': 4.0
+    '3': 6.0
+    '4': 9.0
+  axes_y:
+    A: 0.0
+    B: 1.8
+    C: 5.5
+    D: 7.7
+    E: 11.4
+    F: 13.4
+materials:
+- id: CONC_210
+  name: คอนกรีตผสมเสร็จ 210 ksc (Cylinder)
+  category: concrete
+  unit_cost_ref: MAT-C210
+- id: REBAR_SR24
+  name: เหล็กเส้นกลม SR24 (RB6, RB9)
+  category: rebar
+  unit_cost_ref: MAT-SR24
+- id: REBAR_SD40
+  name: เหล็กข้ออ้อย SD40 (DB12, DB16)
+  category: rebar
+  unit_cost_ref: MAT-SD40
+- id: SAND_BEDDING
+  name: ทรายหยาบรองพื้น/ฐานราก 5 ซม.
+  category: earthwork
+  unit_cost_ref: MAT-SAND
+- id: LEAN_CONC
+  name: คอนกรีตหยาบรองฐานราก 5 ซม.
+  category: concrete
+  unit_cost_ref: MAT-LEAN
+- id: COL_C1
+  name: เสา C1 (0.20x0.20 ม. 4-DB12)
+  category: concrete_structural
+  unit_cost_ref: MAT-C1
+- id: COL_C1A
+  name: เสา C1A (0.20x0.20 ม. 4-DB16)
+  category: concrete_structural
+  unit_cost_ref: MAT-C1A
+- id: COL_C2
+  name: เสา C2 (0.25x0.25 ม. 6-DB16)
+  category: concrete_structural
+  unit_cost_ref: MAT-C2
+- id: BEAM_GB1
+  name: คานคอดิน GB1 (0.20x0.40 ม.)
+  category: concrete_structural
+  unit_cost_ref: MAT-GB1
+- id: BEAM_GB2
+  name: คานคอดิน GB2 (0.15x0.35 ม.)
+  category: concrete_structural
+  unit_cost_ref: MAT-GB2
+- id: BEAM_B1
+  name: คานชั้นสอง B1 (0.20x0.45 ม.)
+  category: concrete_structural
+  unit_cost_ref: MAT-B1
+- id: BEAM_B2
+  name: คานชั้นสอง B2 (0.15x0.35 ม.)
+  category: concrete_structural
+  unit_cost_ref: MAT-B2
+- id: BEAM_RB
+  name: คานหลังคา RB (0.15x0.30 ม.)
+  category: concrete_structural
+  unit_cost_ref: MAT-RB
+- id: SLAB_PLANK_S1
+  name: พื้นสำเร็จรูป S1 (แผ่น 5 ซม. + Topping 5 ซม.)
+  category: concrete_slab
+  unit_cost_ref: MAT-S1
+- id: SLAB_CIP_S2
+  name: พื้นหล่อในที่ S2 หนา 10 ซม.
+  category: concrete_slab
+  unit_cost_ref: MAT-S2
+- id: SLAB_GROUND_GS
+  name: พื้นวางบนดิน GS หนา 10 ซม.
+  category: concrete_slab
+  unit_cost_ref: MAT-GS
+- id: STEEL_RAFTER_C125
+  name: จันทันเหล็ก C-125x50x20x4.0 มม.
+  category: steel_structural
+  unit_cost_ref: MAT-C125
+- id: STEEL_PURLIN_C100
+  name: แปเหล็ก C-100x50x20x3.2 มม.
+  category: steel_structural
+  unit_cost_ref: MAT-C100
+- id: ROOF_METALSHEET_PE
+  name: หลังคาเหล็กรีดลอน 0.40 มม. + ฉนวน PE 6 มม.
+  category: roofing
+  unit_cost_ref: MAT-METALROOF
+- id: BRICK_MON
+  name: อิฐมอญก่อครึ่งแผ่น หนา 7 ซม.
+  category: masonry
+  unit_cost_ref: MAT-BRICK
+- id: DOOR_D1
+  name: ประตูบานเลื่อนคู่อะลูมิเนียม 2.60x2.05 ม.
+  category: door
+  unit_cost_ref: MAT-D1
+- id: DOOR_D2
+  name: ประตูบานเปิดเดี่ยวไม้ HDF 0.80x2.00 ม.
+  category: door
+  unit_cost_ref: MAT-D2
+- id: DOOR_D3
+  name: ประตูบานเปิด PVC ห้องน้ำ 0.70x2.00 ม.
+  category: door
+  unit_cost_ref: MAT-D3
+- id: WIN_N1
+  name: หน้าต่างบานเลื่อนคู่อะลูมิเนียม 1.40x1.20 ม.
+  category: window
+  unit_cost_ref: MAT-N1
+- id: WIN_N2
+  name: หน้าต่างบานเปิดเดี่ยว 0.70x1.20 ม.
+  category: window
+  unit_cost_ref: MAT-N2
+- id: WIN_N3
+  name: หน้าต่างบานกระทุ้งห้องน้ำ 1.40x0.50 ม.
+  category: window
+  unit_cost_ref: MAT-N3
+- id: WIN_N4
+  name: หน้าต่างบานเลื่อนคู่มีช่องแสง 2.80x1.20 ม.
+  category: window
+  unit_cost_ref: MAT-N4
+- id: PLASTER_PAINT_EXT
+  name: ปูนฉาบกันซึม 15 มม. + ทาสีภายนอก
+  category: finish
+  unit_cost_ref: MAT-P-EXT
+- id: PLASTER_PAINT_INT
+  name: ปูนฉาบเรียบ 15 มม. + ทาสีภายใน
+  category: finish
+  unit_cost_ref: MAT-P-INT
+- id: TILE_WALL_CERAMIC_8X8
+  name: กระเบื้องเซรามิกบุผนังห้องน้ำ 8x8 นิ้ว
+  category: finish
+  unit_cost_ref: MAT-TILE-WALL
+- id: FINISH_P1_TILE_12X12
+  name: กระเบื้องเซรามิกปูพื้น 12x12 นิ้ว
+  category: finish
+  unit_cost_ref: MAT-P1
+- id: FINISH_P2_PARQUET
+  name: ปาร์เก้ไม้เนื้อแข็ง 1x4x12 นิ้ว
+  category: finish
+  unit_cost_ref: MAT-P2
+- id: FINISH_P3_ANTISLIP_8X8
+  name: กระเบื้องเซรามิกกันลื่น 8x8 นิ้ว
+  category: finish
+  unit_cost_ref: MAT-P3
+includes:
+- models/**/*.yaml

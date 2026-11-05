@@ -1,0 +1,349 @@
+elements:
+- class: IfcDoor
+  tag: DOOR-D1-MAIN
+  dimensions:
+    width: 2.6
+    height: 2.05
+  offset_distance: 6.0
+  at_grid:
+  - '3'
+  - B
+  sill_height: 0.0
+  flipped: false
+  host_wall: W1-EXT-SOUTH-LIVING
+- class: IfcDoor
+  tag: DOOR-D3-BATH1
+  dimensions:
+    width: 0.7
+    height: 2.0
+  offset_distance: 0.0
+  at_grid:
+  - '3'
+  - D
+  sill_height: 0.0
+  flipped: false
+  host_wall: W1-TOILET-1-S
+- class: IfcWindow
+  tag: WIN-N1-LIVING
+  dimensions:
+    width: 1.4
+    height: 1.2
+  offset_distance: 3.7
+  at_grid:
+  - '1'
+  - C
+  sill_height: 0.9
+  flipped: false
+  host_wall: W1-LIVING-BAY-WALL
+- class: IfcDoor
+  tag: DOOR-D1-BALCONY
+  dimensions:
+    width: 2.6
+    height: 2.05
+  offset_distance: 0.0
+  at_grid:
+  - '1'
+  - B
+  sill_height: 0.0
+  flipped: false
+  host_wall: W2-MBED-FRONT-WALL
+- class: IfcDoor
+  tag: DOOR-D2-BED1
+  dimensions:
+    width: 0.8
+    height: 2.0
+  offset_distance: 5.9
+  at_grid:
+  - '2'
+  - D
+  sill_height: 0.0
+  flipped: false
+  host_wall: W2-INT-SPINE-SOUTH
+- class: IfcWindow
+  tag: WIN-N4-MASTER
+  dimensions:
+    width: 1.6
+    height: 1.45
+  offset_distance: 3.7
+  at_grid:
+  - '1'
+  - C
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-MBED-BAY-WALL
+- class: IfcWindow
+  tag: WIN-N3-BATH2
+  dimensions:
+    width: 1.4
+    height: 0.5
+  offset_distance: 2.2
+  at_grid:
+  - '1'
+  - D
+  sill_height: 1.8
+  flipped: false
+  host_wall: W2-BATH2-WEST-WALL
+- class: IfcDoor
+  tag: DOOR-D3-BATH2
+  dimensions:
+    width: 0.7
+    height: 2.0
+  offset_distance: 0.6
+  at_grid:
+  - '1'
+  - C
+  sill_height: 0.0
+  flipped: false
+  host_wall: W2-INT-MBED-BATH2
+- class: IfcDoor
+  tag: DOOR-D3-BATH3
+  dimensions:
+    width: 0.7
+    height: 2.0
+  offset_distance: 0.0
+  at_grid:
+  - '2'
+  - E
+  sill_height: 0.0
+  flipped: false
+  host_wall: W2-TOILET-3-S
+- class: IfcDoor
+  tag: DOOR-D3-KITCHEN
+  dimensions:
+    width: 0.7
+    height: 2.0
+  offset_distance: 0.0
+  at_grid:
+  - '2'
+  - C
+  sill_height: 0.0
+  flipped: false
+  host_wall: W1-INT-KITCHEN-DIV
+- class: IfcWindow
+  tag: WIN-N1-DINING
+  dimensions:
+    width: 1.4
+    height: 1.2
+  offset_distance: 4.0
+  at_grid:
+  - '2'
+  - E
+  sill_height: 0.9
+  flipped: false
+  host_wall: W1-EXT-NORTH-HALL
+- class: IfcWindow
+  tag: WIN-N1-BED2
+  dimensions:
+    width: 1.4
+    height: 1.2
+  offset_distance: 2.0
+  at_grid:
+  - '3'
+  - B
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-BED2-FRONT-WALL
+- class: IfcWindow
+  tag: WIN-N1-BED3
+  dimensions:
+    width: 1.4
+    height: 1.2
+  offset_distance: -5.9
+  at_grid:
+  - '4'
+  - B
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-BED3-WEST-WALL
+- class: IfcWindow
+  tag: WIN-N2-01
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 3.7
+  at_grid:
+  - '4'
+  - C
+  sill_height: 0.9
+  flipped: false
+  host_wall: W1-EXT-EAST-MAIN
+- class: IfcWindow
+  tag: WIN-N2-02
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 5.9
+  at_grid:
+  - '4'
+  - D
+  sill_height: 0.9
+  flipped: false
+  host_wall: W1-EXT-EAST-MAIN
+- class: IfcWindow
+  tag: WIN-N2-03
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 3.7
+  at_grid:
+  - '4'
+  - C
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-EXT-EAST-SOUTH
+- class: IfcWindow
+  tag: WIN-N2-04
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 5.9
+  at_grid:
+  - '4'
+  - D
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-EXT-EAST
+- class: IfcWindow
+  tag: WIN-N2-05
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 0.0
+  at_grid:
+  - '2'
+  - B
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-BED2-FRONT-WALL
+- class: IfcWindow
+  tag: WIN-N2-06
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 4.0
+  at_grid:
+  - '2'
+  - E
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-EXT-NORTH
+- class: IfcWindow
+  tag: WIN-N2-07
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 6.0
+  at_grid:
+  - '3'
+  - E
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-EXT-NORTH
+- class: IfcWindow
+  tag: WIN-N2-08
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: -2.2
+  at_grid:
+  - '1'
+  - C
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-BED3-WEST-WALL
+- class: IfcWindow
+  tag: WIN-N2-09
+  dimensions:
+    width: 0.7
+    height: 1.2
+  offset_distance: 0.0
+  at_grid:
+  - '1'
+  - D
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-BED3-WEST-WALL
+- class: IfcWindow
+  tag: WIN-N3-BATH1
+  dimensions:
+    width: 1.4
+    height: 0.5
+  offset_distance: 2.0
+  at_grid:
+  - '3'
+  - E
+  sill_height: 1.8
+  flipped: false
+  host_wall: W1-INT-KITCHEN-DIV
+- class: IfcWindow
+  tag: WIN-N3-BATH3
+  dimensions:
+    width: 1.4
+    height: 0.5
+  offset_distance: 6.0
+  at_grid:
+  - '3'
+  - E
+  sill_height: 1.8
+  flipped: false
+  host_wall: W2-EXT-NORTH
+- class: IfcWindow
+  tag: WIN-N4-02
+  dimensions:
+    width: 2.8
+    height: 1.2
+  offset_distance: 2.0
+  at_grid:
+  - '3'
+  - B
+  sill_height: 0.9
+  flipped: false
+  host_wall: W1-EXT-SOUTH-CARPORT
+- class: IfcWindow
+  tag: WIN-N4-03
+  dimensions:
+    width: 2.8
+    height: 1.2
+  offset_distance: 2.0
+  at_grid:
+  - '3'
+  - B
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-BED2-FRONT-WALL
+- class: IfcWindow
+  tag: WIN-N4-04
+  dimensions:
+    width: 2.8
+    height: 1.2
+  offset_distance: 5.0
+  at_grid:
+  - '4'
+  - B
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-BED2-FRONT-WALL
+- class: IfcWindow
+  tag: WIN-N4-05
+  dimensions:
+    width: 2.8
+    height: 1.2
+  offset_distance: 4.0
+  at_grid:
+  - '2'
+  - E
+  sill_height: 0.9
+  flipped: false
+  host_wall: W2-EXT-NORTH
+- class: IfcWindow
+  tag: WIN-N5-STAIR
+  dimensions:
+    width: 1.4
+    height: 2.05
+  offset_distance: 0.4
+  at_grid:
+  - 4 + 0.50
+  - C
+  sill_height: 1.8
+  flipped: false
+  host_wall: W1-STAIR-BAY-WALL

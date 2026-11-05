@@ -1,0 +1,290 @@
+elements:
+- class: IfcSlab
+  tag: GS-CARPORT
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '2'
+      - A
+    - - '4'
+      - A
+    - - '4'
+      - C
+    - - '2'
+      - C
+    storey: L1
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: GS-PORCH
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '1'
+      - A
+    - - '2'
+      - A
+    - - '2'
+      - B
+    - - '1'
+      - B
+    storey: L1
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S1-LIVING
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - 1 - 0.60
+      - B
+    - - '2'
+      - B
+    - - '2'
+      - C
+    - - '1'
+      - C
+    - - 1 - 0.60
+      - C
+    storey: L1
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S1-DINING
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '2'
+      - C
+    - - '4'
+      - C
+    - - '4'
+      - E
+    - - '2'
+      - E
+    storey: L1
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S2-TOILET-1
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '3'
+      - D
+    - - '4'
+      - D
+    - - '4'
+      - E
+    - - '3'
+      - E
+    storey: L1
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S2-WASH
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '2'
+      - E
+    - - '4'
+      - E
+    - - '4'
+      - F
+    - - '2'
+      - F
+    storey: L1
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S1-BED-1
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - 1 - 0.60
+      - B
+    - - '1'
+      - B - 0.70
+    - - '2'
+      - B - 0.70
+    - - '2'
+      - C
+    - - 1 - 0.60
+      - C
+    storey: L2
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S1-BED-2
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '2'
+      - B
+    - - '4'
+      - B
+    - - '4'
+      - C
+    - - '2'
+      - C
+    storey: L2
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S1-BED-3
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - 1 - 0.60
+      - D
+    - - '2'
+      - D
+    - - '2'
+      - E
+    - - 1 - 0.60
+      - E
+    storey: L2
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S1-HALL-2
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '2'
+      - C
+    - - '4'
+      - C
+    - - '4'
+      - E
+    - - '2'
+      - E
+    storey: L2
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S2-TOILET-2
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - 1 - 0.60
+      - C
+    - - '2'
+      - C
+    - - '2'
+      - D
+    - - 1 - 0.60
+      - D
+    storey: L2
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S2-TOILET-3
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '2'
+      - E - 2.40
+    - - '3'
+      - E - 2.40
+    - - '3'
+      - E
+    - - '2'
+      - E
+    storey: L2
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: S2-BALCONY-1
+  material: CONC_210
+  thickness: 0.1
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '1'
+      - A
+    - - '2'
+      - A
+    - - '2'
+      - B - 0.70
+    - - '1'
+      - B - 0.70
+    storey: L2
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: PAVEMENT-PERIMETER
+  material: CONC_210
+  thickness: 0.08
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - 1 - 1.00
+      - A - 1.00
+    - - 4 + 1.00
+      - A - 1.00
+    - - 4 + 1.00
+      - F + 1.00
+    - - 1 - 1.00
+      - F + 1.00
+    storey: L1
+    offset_z: 0.0
+    elevation_offset: 0.0
+- class: IfcSlab
+  tag: STAIR-LANDING
+  material: CONC_210
+  thickness: 0.12
+  slab_type: SOLID
+  elevation_offset: 0.0
+  placement:
+    boundary:
+    - - '4'
+      - C
+    - - 4 + 0.50
+      - C
+    - - 4 + 0.50
+      - D
+    - - '4'
+      - D
+    storey: L1
+    offset_z: 1.575
+    elevation_offset: 0.0
