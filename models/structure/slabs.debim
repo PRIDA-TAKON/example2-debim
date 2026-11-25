@@ -80,3 +80,25 @@ elements:
     placement:
       boundary: [["4", "B"], ["5", "B"], ["5", "F"], ["4", "F"]]
       storey: L2
+  - class: IfcSlab
+    tag: SLAB-ROOF-CARPORT
+    name: แผ่นหลังคาโรงจอดรถ
+    material: ROOF_METALSHEET_PU
+    thickness: 0.10
+    placement:
+      boundary: [["1", "A"], ["4", "A"], ["4", "D"], ["1", "D"]]
+      storey: L2
+      offset_z: 0.00
+
+  # ==========================================
+  # แผ่นหลังคาชั้นบนสุด (Roof Level)
+  # ==========================================
+  - class: IfcSlab
+    tag: SLAB-ROOF-MAIN
+    name: แผ่นหลังคาตัวบ้านหลัก
+    material: ROOF_METALSHEET_PU
+    thickness: 0.12
+    placement:
+      boundary: [["2", "B"], ["7", "B"], ["7", "G"], ["2", "G"]]
+      storey: Roof
+      offset_z: 0.00

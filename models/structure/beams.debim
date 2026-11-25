@@ -138,6 +138,29 @@ elements:
   # ==========================================
   # คานชั้นที่ 2 (L2)
   # ==========================================
+  # คานโครงสร้างหลังคาโรงจอดรถ (L2)
+  - class: IfcBeam
+    tag: B1-1A-4A
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.45 }
+    placement: { from_grid: ["1", "A"], to_grid: ["4", "A"], storey: L2 }
+  - class: IfcBeam
+    tag: B1-1A-1D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.45 }
+    placement: { from_grid: ["1", "A"], to_grid: ["1", "D"], storey: L2 }
+  - class: IfcBeam
+    tag: B1-4A-4D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.45 }
+    placement: { from_grid: ["4", "A"], to_grid: ["4", "D"], storey: L2 }
+  - class: IfcBeam
+    tag: B1-1D-4D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.45 }
+    placement: { from_grid: ["1", "D"], to_grid: ["4", "D"], storey: L2 }
+
+  # คานตัวบ้านชั้นที่ 2 (L2)
   - class: IfcBeam
     tag: B1-2B-4B
     material: CONC_240

@@ -1,7 +1,7 @@
 elements:
   - class: IfcRoof
     tag: ROOF-MAIN
-    name: โครงหลังคาเหล็กรีดลอน Seamless ทรงเพิงแหงนโมเดิร์น
+    name: โครงหลังคาเหล็กรีดลอน Seamless ทรงเพิงแหงนโมเดิร์น (ตัวบ้านหลัก)
     material: ROOF_METALSHEET_PU
     roof_type: SHED
     pitch_deg: 8.0
@@ -18,6 +18,29 @@ elements:
     covering:
       tile_type: METAL_SHEET
       pitch: 8.0
+      insulation: true
+      fascia_board: true
+    layer: architecture/roofs
+
+  - class: IfcRoof
+    tag: ROOF-CARPORT
+    name: หลังคาคลุมโรงจอดรถโมเดิร์น
+    material: ROOF_METALSHEET_PU
+    roof_type: FLAT
+    pitch_deg: 3.0
+    placement:
+      boundary:
+        - ["1", "A"]
+        - ["4", "A"]
+        - ["4", "D"]
+        - ["1", "D"]
+      storey: L2
+      offset_z: 0.0
+      overhang: 0.50
+      ridge_orientation: X
+    covering:
+      tile_type: METAL_SHEET
+      pitch: 3.0
       insulation: true
       fascia_board: true
     layer: architecture/roofs

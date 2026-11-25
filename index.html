@@ -3544,6 +3544,118 @@
       "layer": "structure/framing/beams"
     },
     {
+      "tag": "B1-1A-4A",
+      "class": "IfcBeam",
+      "material": "CONC_240",
+      "position": [
+        5.25,
+        3.5,
+        3.275
+      ],
+      "direction_vector_3d": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "BOX",
+        "length": 5.5,
+        "width": 0.2,
+        "depth": 0.45
+      },
+      "color": "#9A9A9A",
+      "layer": "structure/framing/beams"
+    },
+    {
+      "tag": "B1-1A-1D",
+      "class": "IfcBeam",
+      "material": "CONC_240",
+      "position": [
+        2.5,
+        6.5,
+        3.275
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "dimensions": {
+        "shape": "BOX",
+        "length": 6.0,
+        "width": 0.2,
+        "depth": 0.45
+      },
+      "color": "#9A9A9A",
+      "layer": "structure/framing/beams"
+    },
+    {
+      "tag": "B1-4A-4D",
+      "class": "IfcBeam",
+      "material": "CONC_240",
+      "position": [
+        8.0,
+        6.5,
+        3.275
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        1.5707963267948966
+      ],
+      "dimensions": {
+        "shape": "BOX",
+        "length": 6.0,
+        "width": 0.2,
+        "depth": 0.45
+      },
+      "color": "#9A9A9A",
+      "layer": "structure/framing/beams"
+    },
+    {
+      "tag": "B1-1D-4D",
+      "class": "IfcBeam",
+      "material": "CONC_240",
+      "position": [
+        5.25,
+        9.5,
+        3.275
+      ],
+      "direction_vector_3d": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "rotation": [
+        0,
+        0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "BOX",
+        "length": 5.5,
+        "width": 0.2,
+        "depth": 0.45
+      },
+      "color": "#9A9A9A",
+      "layer": "structure/framing/beams"
+    },
+    {
       "tag": "B1-2B-4B",
       "class": "IfcBeam",
       "material": "CONC_240",
@@ -4549,6 +4661,94 @@
         ],
         "voids": [],
         "area": 25.0
+      },
+      "color": "#A8B2C1",
+      "transparent": true,
+      "opacity": 0.85,
+      "layer": "structure/slabs"
+    },
+    {
+      "tag": "SLAB-ROOF-CARPORT",
+      "class": "IfcSlab",
+      "material": "ROOF_METALSHEET_PU",
+      "position": [
+        5.25,
+        6.5,
+        3.45
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "width": 5.5,
+        "depth": 6.0,
+        "height": 0.1,
+        "polygon": [
+          [
+            2.5,
+            3.5
+          ],
+          [
+            8.0,
+            3.5
+          ],
+          [
+            8.0,
+            9.5
+          ],
+          [
+            2.5,
+            9.5
+          ]
+        ],
+        "voids": [],
+        "area": 33.0
+      },
+      "color": "#A8B2C1",
+      "transparent": true,
+      "opacity": 0.85,
+      "layer": "structure/slabs"
+    },
+    {
+      "tag": "SLAB-ROOF-MAIN",
+      "class": "IfcSlab",
+      "material": "ROOF_METALSHEET_PU",
+      "position": [
+        9.5,
+        11.25,
+        6.44
+      ],
+      "rotation": [
+        0,
+        0,
+        0
+      ],
+      "dimensions": {
+        "width": 12.0,
+        "depth": 13.5,
+        "height": 0.12,
+        "polygon": [
+          [
+            3.5,
+            4.5
+          ],
+          [
+            15.5,
+            4.5
+          ],
+          [
+            15.5,
+            18.0
+          ],
+          [
+            3.5,
+            18.0
+          ]
+        ],
+        "voids": [],
+        "area": 162.0
       },
       "color": "#A8B2C1",
       "transparent": true,
@@ -6907,6 +7107,523 @@
       ],
       "dimensions": {
         "length": 15.5,
+        "width": 0.02,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "color": "#8B4513",
+      "layer": "architecture/roofs/fascia",
+      "member_name": "ไม้เชิงชาย (Fascia Board)"
+    },
+    {
+      "tag": "ROOF-CARPORT-FlatSurface",
+      "class": "IfcRoofCovering",
+      "geometry_type": "polygon",
+      "points": [
+        [
+          2.0,
+          3.0,
+          3.5
+        ],
+        [
+          8.5,
+          3.0,
+          3.5
+        ],
+        [
+          8.5,
+          10.0,
+          3.5
+        ],
+        [
+          2.0,
+          10.0,
+          3.5
+        ]
+      ],
+      "material": "METAL_SHEET",
+      "color": "#9E4734",
+      "layer": "architecture/roofs/covering",
+      "member_name": "Roof Covering",
+      "dimensions": {
+        "area": 45.5,
+        "slope_degrees": 0.0
+      }
+    },
+    {
+      "tag": "ROOF-CARPORT-WP-South",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        5.25,
+        3.0,
+        3.5
+      ],
+      "direction_vector_3d": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.15,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 6.5
+      },
+      "color": "#3B82F6",
+      "layer": "architecture/roofs/framing",
+      "member_type": "WALL_PLATE",
+      "member_name": "อะเส (Wall Plate)",
+      "profile": "C150x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-WP-East",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        8.5,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.15,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#3B82F6",
+      "layer": "architecture/roofs/framing",
+      "member_type": "WALL_PLATE",
+      "member_name": "อะเส (Wall Plate)",
+      "profile": "C150x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-WP-North",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        5.25,
+        10.0,
+        3.5
+      ],
+      "direction_vector_3d": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.15,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 6.5
+      },
+      "color": "#3B82F6",
+      "layer": "architecture/roofs/framing",
+      "member_type": "WALL_PLATE",
+      "member_name": "อะเส (Wall Plate)",
+      "profile": "C150x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-WP-West",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        2.0,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.15,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#3B82F6",
+      "layer": "architecture/roofs/framing",
+      "member_type": "WALL_PLATE",
+      "member_name": "อะเส (Wall Plate)",
+      "profile": "C150x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-Rafter-1",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        3.0,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.1,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#06B6D4",
+      "layer": "architecture/roofs/framing",
+      "member_type": "JACK_RAFTER",
+      "member_name": "จันทัน (Rafter)",
+      "profile": "C100x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-Rafter-2",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        4.0,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.1,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#06B6D4",
+      "layer": "architecture/roofs/framing",
+      "member_type": "JACK_RAFTER",
+      "member_name": "จันทัน (Rafter)",
+      "profile": "C100x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-Rafter-3",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        5.0,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.1,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#06B6D4",
+      "layer": "architecture/roofs/framing",
+      "member_type": "JACK_RAFTER",
+      "member_name": "จันทัน (Rafter)",
+      "profile": "C100x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-Rafter-4",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        6.0,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.1,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#06B6D4",
+      "layer": "architecture/roofs/framing",
+      "member_type": "JACK_RAFTER",
+      "member_name": "จันทัน (Rafter)",
+      "profile": "C100x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-Rafter-5",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        7.0,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.1,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#06B6D4",
+      "layer": "architecture/roofs/framing",
+      "member_type": "JACK_RAFTER",
+      "member_name": "จันทัน (Rafter)",
+      "profile": "C100x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-Rafter-6",
+      "class": "IfcRoofFraming",
+      "material": "STEEL_SS400",
+      "position": [
+        8.0,
+        6.5,
+        3.5
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "shape": "USHAPE",
+        "depth": 0.1,
+        "width": 0.05,
+        "flange_width": 0.05,
+        "web_thickness": 0.0032,
+        "flange_thickness": 0.0032,
+        "length": 7.0
+      },
+      "color": "#06B6D4",
+      "layer": "architecture/roofs/framing",
+      "member_type": "JACK_RAFTER",
+      "member_name": "จันทัน (Rafter)",
+      "profile": "C100x50x20x3.2"
+    },
+    {
+      "tag": "ROOF-CARPORT-Eave-1",
+      "class": "IfcRoofRidge",
+      "geometry_type": "line",
+      "points": [
+        [
+          2.0,
+          3.0,
+          3.5
+        ],
+        [
+          8.5,
+          3.0,
+          3.5
+        ]
+      ],
+      "color": "#64748B",
+      "linewidth": 2,
+      "layer": "architecture/roofs/covering",
+      "member_name": "Roof Ridge (Eave)",
+      "dimensions": {
+        "length": 6.5
+      }
+    },
+    {
+      "tag": "ROOF-CARPORT-Eave-2",
+      "class": "IfcRoofRidge",
+      "geometry_type": "line",
+      "points": [
+        [
+          8.5,
+          3.0,
+          3.5
+        ],
+        [
+          8.5,
+          10.0,
+          3.5
+        ]
+      ],
+      "color": "#64748B",
+      "linewidth": 2,
+      "layer": "architecture/roofs/covering",
+      "member_name": "Roof Ridge (Eave)",
+      "dimensions": {
+        "length": 7.0
+      }
+    },
+    {
+      "tag": "ROOF-CARPORT-Eave-3",
+      "class": "IfcRoofRidge",
+      "geometry_type": "line",
+      "points": [
+        [
+          8.5,
+          10.0,
+          3.5
+        ],
+        [
+          2.0,
+          10.0,
+          3.5
+        ]
+      ],
+      "color": "#64748B",
+      "linewidth": 2,
+      "layer": "architecture/roofs/covering",
+      "member_name": "Roof Ridge (Eave)",
+      "dimensions": {
+        "length": 6.5
+      }
+    },
+    {
+      "tag": "ROOF-CARPORT-Eave-4",
+      "class": "IfcRoofRidge",
+      "geometry_type": "line",
+      "points": [
+        [
+          2.0,
+          10.0,
+          3.5
+        ],
+        [
+          2.0,
+          3.0,
+          3.5
+        ]
+      ],
+      "color": "#64748B",
+      "linewidth": 2,
+      "layer": "architecture/roofs/covering",
+      "member_name": "Roof Ridge (Eave)",
+      "dimensions": {
+        "length": 7.0
+      }
+    },
+    {
+      "tag": "ROOF-CARPORT-Fascia-1",
+      "class": "IfcFasciaBoard",
+      "material": "Timber / Fiber Cement Fascia",
+      "position": [
+        5.25,
+        3.0,
+        3.4
+      ],
+      "direction_vector_3d": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": {
+        "length": 6.5,
+        "width": 0.02,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "color": "#8B4513",
+      "layer": "architecture/roofs/fascia",
+      "member_name": "ไม้เชิงชาย (Fascia Board)"
+    },
+    {
+      "tag": "ROOF-CARPORT-Fascia-2",
+      "class": "IfcFasciaBoard",
+      "material": "Timber / Fiber Cement Fascia",
+      "position": [
+        8.5,
+        6.5,
+        3.4
+      ],
+      "direction_vector_3d": [
+        0.0,
+        1.0,
+        0.0
+      ],
+      "dimensions": {
+        "length": 7.0,
+        "width": 0.02,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "color": "#8B4513",
+      "layer": "architecture/roofs/fascia",
+      "member_name": "ไม้เชิงชาย (Fascia Board)"
+    },
+    {
+      "tag": "ROOF-CARPORT-Fascia-3",
+      "class": "IfcFasciaBoard",
+      "material": "Timber / Fiber Cement Fascia",
+      "position": [
+        5.25,
+        10.0,
+        3.4
+      ],
+      "direction_vector_3d": [
+        -1.0,
+        0.0,
+        0.0
+      ],
+      "dimensions": {
+        "length": 6.5,
+        "width": 0.02,
+        "height": 0.2,
+        "depth": 0.02
+      },
+      "color": "#8B4513",
+      "layer": "architecture/roofs/fascia",
+      "member_name": "ไม้เชิงชาย (Fascia Board)"
+    },
+    {
+      "tag": "ROOF-CARPORT-Fascia-4",
+      "class": "IfcFasciaBoard",
+      "material": "Timber / Fiber Cement Fascia",
+      "position": [
+        2.0,
+        6.5,
+        3.4
+      ],
+      "direction_vector_3d": [
+        0.0,
+        -1.0,
+        0.0
+      ],
+      "dimensions": {
+        "length": 7.0,
         "width": 0.02,
         "height": 0.2,
         "depth": 0.02
