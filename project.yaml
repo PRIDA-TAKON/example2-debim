@@ -113,4 +113,4 @@ materials:
     unit_cost_ref: MAT-ALU-WIN
 
 includes:
-  - models/**/*.yaml
+  - models/**/*.debim
