@@ -1,0 +1,26 @@
+elements:
+  - class: IfcStair
+    tag: STAIR-MAIN
+    name: บันได คสล. พับผ้า (Dog-Leg) เชื่อมชั้น 1 ขึ้นชั้น 2
+    material: CONC_240
+    stair_type: DOG_LEG
+    width: 1.10
+    waist_thickness: 0.12
+    landing_depth: 1.10
+    riser_height: 0.177
+    tread_depth: 0.25
+    flight_steps: [9, 9]
+    placement:
+      grid_anchor: ["4", "E"]
+      from_storey: L1
+      to_storey: L2
+      orientation: "+Y"
+    finishes:
+      tread_finish: SPC_FLOOR_VINYL
+      riser_finish: PLASTER_PAINT_INT
+      nosing: true
+    railing:
+      height: 0.90
+      type: STEEL_HANDRAIL
+      side: INNER
+    layer: architecture/stairs

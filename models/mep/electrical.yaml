@@ -1,0 +1,64 @@
+elements:
+  # ==========================================
+  # ระบบไฟฟ้ากำลังและแสงสว่าง (Electrical Power & Lighting)
+  # ==========================================
+  - class: IfcDistributionElement
+    tag: PANEL-MDB-MAIN
+    name: ตู้เมนไฟฟ้าสวิตช์บอร์ด MDB (1 Phase 3 Wire 220V)
+    placement:
+      grid: ["4", "C"]
+      storey: L1
+      offset_x: 0.00
+      offset_y: 0.00
+      offset_z: 1.50
+    layer: mep/electrical
+
+  - class: IfcOutlet
+    tag: OUTLET-LIVING-MEDIA
+    name: เต้ารับไฟฟ้าคู่มีกราวด์โซนทีวีห้องรับแขก
+    predefined_type: POWEROUTLET
+    placement:
+      grid: ["7", "C"]
+      storey: L1
+      offset_x: -0.20
+      offset_y: 0.00
+      offset_z: 0.30
+    layer: mep/electrical
+
+  - class: IfcOutlet
+    tag: OUTLET-KITCHEN-APPLIANCE
+    name: เต้ารับไฟฟ้าเครื่องใช้ไฟฟ้าห้องครัว
+    predefined_type: POWEROUTLET
+    placement:
+      grid: ["6", "G"]
+      storey: L1
+      offset_x: 0.00
+      offset_y: -0.20
+      offset_z: 1.10
+    layer: mep/electrical
+
+  - class: IfcSwitchingDevice
+    tag: SW-L1-ENTRANCE
+    name: สวิตช์เปิด-ปิดไฟโถงทางเข้าและห้องรับแขก
+    predefined_type: SWITCHINGDEVICE
+    placement:
+      grid: ["5", "C"]
+      storey: L1
+      offset_x: 0.00
+      offset_y: 0.00
+      offset_z: 1.20
+    gangs: 2
+    layer: mep/electrical
+
+  - class: IfcSwitchingDevice
+    tag: SW-L2-HALL
+    name: สวิตช์บันได 2 ทาง (3-Way Switch)
+    predefined_type: SWITCHINGDEVICE
+    placement:
+      grid: ["5", "E"]
+      storey: L2
+      offset_x: 0.00
+      offset_y: 0.00
+      offset_z: 1.20
+    gangs: 1
+    layer: mep/electrical

@@ -1,172 +1,153 @@
 elements:
-- class: IfcSanitaryTerminal
-  tag: WC-1
-  terminal_type: WATER_CLOSET
-  predefined_type: WATERCLOSET
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '3'
-    - D
-    storey: L1
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: BASIN-1
-  terminal_type: WATER_CLOSET
-  predefined_type: WASHHANDBASIN
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '3'
-    - D
-    storey: L1
-    offset_x: 1.2
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: WC-2
-  terminal_type: WATER_CLOSET
-  predefined_type: WATERCLOSET
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '1'
-    - C
-    storey: L2
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: WC-3
-  terminal_type: WATER_CLOSET
-  predefined_type: WATERCLOSET
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '2'
-    - E
-    storey: L2
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: BASIN-2
-  terminal_type: WATER_CLOSET
-  predefined_type: WASHHANDBASIN
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '2'
-    - C
-    storey: L2
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: BASIN-3
-  terminal_type: WATER_CLOSET
-  predefined_type: WASHHANDBASIN
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '3'
-    - C
-    storey: L2
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: SHOWER-1
-  terminal_type: WATER_CLOSET
-  predefined_type: SHOWER
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '2'
-    - D
-    storey: L2
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: SHOWER-2
-  terminal_type: WATER_CLOSET
-  predefined_type: SHOWER
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '3'
-    - D
-    storey: L2
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
-- class: IfcSanitaryTerminal
-  tag: SHOWER-3
-  terminal_type: WATER_CLOSET
-  predefined_type: SHOWER
-  width: 0.0
-  depth: 0.0
-  height: 0.0
-  placement:
-    grid:
-    - '1'
-    - C
-    storey: L1
-    offset_x: 0.5
-    offset_y: 0.5
-    offset_z: 0.0
-    distance: 0.0
-    side: INTERIOR
-    standoff: 0.0
-  ports: []
+  # ==========================================
+  # สุขภัณฑ์ชั้นที่ 1 (L1)
+  # ==========================================
+  - class: IfcSanitaryTerminal
+    tag: WC-GUEST
+    name: โถสุขภัณฑ์ห้องน้ำแขก (Dual Flush)
+    predefined_type: WATERCLOSET
+    placement:
+      grid: ["3", "D"]
+      storey: L1
+      offset_x: 0.50
+      offset_y: 0.50
+      offset_z: 0.00
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: BASIN-GUEST
+    name: อ่างล้างหน้าห้องน้ำแขก
+    predefined_type: WASHHANDBASIN
+    placement:
+      grid: ["4", "D"]
+      storey: L1
+      offset_x: -0.50
+      offset_y: 0.50
+      offset_z: 0.85
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: SINK-KITCHEN
+    name: อ่างล้างจานสแตนเลส 2 หลุมห้องครัว
+    predefined_type: SINK
+    placement:
+      grid: ["6", "G"]
+      storey: L1
+      offset_x: 0.00
+      offset_y: -0.60
+      offset_z: 0.85
+    layer: mep/fixtures
+
+  # ==========================================
+  # สุขภัณฑ์ชั้นที่ 2 (L2)
+  # ==========================================
+  # Master Bathroom
+  - class: IfcSanitaryTerminal
+    tag: WC-MBR
+    name: โถสุขภัณฑ์ Master Bathroom
+    predefined_type: WATERCLOSET
+    placement:
+      grid: ["6", "E"]
+      storey: L2
+      offset_x: 0.50
+      offset_y: 0.50
+      offset_z: 0.00
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: BASIN-MBR
+    name: อ่างล้างหน้าคู่ His & Her Master
+    predefined_type: WASHHANDBASIN
+    placement:
+      grid: ["6", "D"]
+      storey: L2
+      offset_x: 0.50
+      offset_y: 0.50
+      offset_z: 0.85
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: SHOWER-MBR
+    name: ชุดฝักบัว Rain Shower Master
+    predefined_type: SHOWER
+    placement:
+      grid: ["7", "E"]
+      storey: L2
+      offset_x: -0.60
+      offset_y: 0.50
+      offset_z: 1.00
+    layer: mep/fixtures
+
+  # Bathroom 2 (En-suite Bed 2)
+  - class: IfcSanitaryTerminal
+    tag: WC-BED2
+    name: โถสุขภัณฑ์ Bathroom 2
+    predefined_type: WATERCLOSET
+    placement:
+      grid: ["3", "D"]
+      storey: L2
+      offset_x: 0.50
+      offset_y: 0.50
+      offset_z: 0.00
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: BASIN-BED2
+    name: อ่างล้างหน้า Bathroom 2
+    predefined_type: WASHHANDBASIN
+    placement:
+      grid: ["4", "D"]
+      storey: L2
+      offset_x: -0.50
+      offset_y: 0.50
+      offset_z: 0.85
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: SHOWER-BED2
+    name: ชุดฝักบัว Bathroom 2
+    predefined_type: SHOWER
+    placement:
+      grid: ["3", "E"]
+      storey: L2
+      offset_x: 0.50
+      offset_y: -0.50
+      offset_z: 1.00
+    layer: mep/fixtures
+
+  # Bathroom 3 (En-suite Bed 3)
+  - class: IfcSanitaryTerminal
+    tag: WC-BED3
+    name: โถสุขภัณฑ์ Bathroom 3
+    predefined_type: WATERCLOSET
+    placement:
+      grid: ["3", "E"]
+      storey: L2
+      offset_x: 0.50
+      offset_y: 0.50
+      offset_z: 0.00
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: BASIN-BED3
+    name: อ่างล้างหน้า Bathroom 3
+    predefined_type: WASHHANDBASIN
+    placement:
+      grid: ["4", "E"]
+      storey: L2
+      offset_x: -0.50
+      offset_y: 0.50
+      offset_z: 0.85
+    layer: mep/fixtures
+
+  - class: IfcSanitaryTerminal
+    tag: SHOWER-BED3
+    name: ชุดฝักบัว Bathroom 3
+    predefined_type: SHOWER
+    placement:
+      grid: ["3", "F"]
+      storey: L2
+      offset_x: 0.50
+      offset_y: -0.50
+      offset_z: 1.00
+    layer: mep/fixtures

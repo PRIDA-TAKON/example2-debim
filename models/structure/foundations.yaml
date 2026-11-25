@@ -1,494 +1,110 @@
 elements:
-- class: IfcFooting
-  tag: F4-1A
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.8
-    depth: 1.8
-    thickness: 0.4
-  placement:
-    grid:
-    - '1'
-    - A
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 5
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F4-2A
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.8
-    depth: 1.8
-    thickness: 0.4
-  placement:
-    grid:
-    - '2'
-    - A
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 6
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F8-1B
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.4
-    depth: 1.4
-    thickness: 0.35
-  placement:
-    grid:
-    - '1'
-    - B
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 8
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F11-2B
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.6
-    depth: 1.6
-    thickness: 0.4
-  placement:
-    grid:
-    - '2'
-    - B
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 11
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F6-4B
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 2.0
-    depth: 2.0
-    thickness: 0.45
-  placement:
-    grid:
-    - '4'
-    - B
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 6
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F8-1C
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.4
-    depth: 1.4
-    thickness: 0.35
-  placement:
-    grid:
-    - '1'
-    - C
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 8
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F16-2C
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 2.2
-    depth: 2.2
-    thickness: 0.5
-  placement:
-    grid:
-    - '2'
-    - C
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 16
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F11-4C
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.6
-    depth: 1.6
-    thickness: 0.4
-  placement:
-    grid:
-    - '4'
-    - C
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 11
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F11-1D
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.6
-    depth: 1.6
-    thickness: 0.4
-  placement:
-    grid:
-    - '1'
-    - D
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 11
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F12-3D
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.7
-    depth: 1.7
-    thickness: 0.4
-  placement:
-    grid:
-    - '3'
-    - D
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 12
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F8-4D
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.4
-    depth: 1.4
-    thickness: 0.35
-  placement:
-    grid:
-    - '4'
-    - D
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 8
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F8-1E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.4
-    depth: 1.4
-    thickness: 0.35
-  placement:
-    grid:
-    - '1'
-    - E
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 8
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F16-2E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 2.2
-    depth: 2.2
-    thickness: 0.5
-  placement:
-    grid:
-    - '2'
-    - E
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 16
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F11-3E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.6
-    depth: 1.6
-    thickness: 0.4
-  placement:
-    grid:
-    - '3'
-    - E
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 11
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F8-4E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 1.4
-    depth: 1.4
-    thickness: 0.35
-  placement:
-    grid:
-    - '4'
-    - E
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 8
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F6-2F
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 2.0
-    depth: 2.0
-    thickness: 0.45
-  placement:
-    grid:
-    - '2'
-    - F
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 6
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
-- class: IfcFooting
-  tag: F6-4F
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 2.0
-    depth: 2.0
-    thickness: 0.45
-  placement:
-    grid:
-    - '4'
-    - F
-    storey: Foundation
-    offset_x: 0.0
-    offset_y: 0.0
-    offset_z: 0.0
-  piles:
-    count: 6
-    profile:
-      shape: HEXAGONAL
-      dimension: 0.15
-    length: 6.0
-  substructure:
-    lean_concrete: true
-    lean_thickness: 0.05
-    sand_bedding: true
-    sand_thickness: 0.1
-    excavation: true
-    excavation_working_space: 0.14
+  # ฐานรากเสาเข็ม F1 (เดี่ยว) และ F2 (คู่/โรงรถ)
+  - class: IfcFooting
+    tag: F-1A
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["1", "A"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-4A
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["4", "A"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-1D
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["1", "D"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-2B
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["2", "B"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-4B
+    material: CONC_240
+    profile: { shape: BOX, width: 1.5, depth: 1.5, thickness: 0.5 }
+    placement: { grid: ["4", "B"], storey: Foundation }
+    piles: { count: 3, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-5B
+    material: CONC_240
+    profile: { shape: BOX, width: 1.5, depth: 1.5, thickness: 0.5 }
+    placement: { grid: ["5", "B"], storey: Foundation }
+    piles: { count: 3, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-7B
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["7", "B"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-2D
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["2", "D"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-4D
+    material: CONC_240
+    profile: { shape: BOX, width: 1.5, depth: 1.5, thickness: 0.5 }
+    placement: { grid: ["4", "D"], storey: Foundation }
+    piles: { count: 3, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-5D
+    material: CONC_240
+    profile: { shape: BOX, width: 1.5, depth: 1.5, thickness: 0.5 }
+    placement: { grid: ["5", "D"], storey: Foundation }
+    piles: { count: 3, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-7D
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["7", "D"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-4E
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["4", "E"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-2F
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["2", "F"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-4F
+    material: CONC_240
+    profile: { shape: BOX, width: 1.5, depth: 1.5, thickness: 0.5 }
+    placement: { grid: ["4", "F"], storey: Foundation }
+    piles: { count: 3, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-5F
+    material: CONC_240
+    profile: { shape: BOX, width: 1.5, depth: 1.5, thickness: 0.5 }
+    placement: { grid: ["5", "F"], storey: Foundation }
+    piles: { count: 3, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-7F
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["7", "F"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-5G
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["5", "G"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }
+  - class: IfcFooting
+    tag: F-7G
+    material: CONC_240
+    profile: { shape: BOX, width: 1.2, depth: 1.2, thickness: 0.4 }
+    placement: { grid: ["7", "G"], storey: Foundation }
+    piles: { count: 2, profile: { shape: SQUARE, dimension: 0.22 }, length: 12.0 }

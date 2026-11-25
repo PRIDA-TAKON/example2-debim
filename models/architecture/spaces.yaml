@@ -1,299 +1,158 @@
 elements:
-- class: IfcSpace
-  tag: SPACE-CARPORT
-  name: ที่จอดรถ (Carport)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: -0.4
-  placement:
-    storey: L1
-    boundary:
-    - - '2'
-      - A
-    - - '4'
-      - A
-    - - '4'
-      - C
-    - - '2'
-      - C
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-PORCH
-  name: เฉลียง (Porch)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: -0.1
-  placement:
-    storey: L1
-    boundary:
-    - - '1'
-      - A
-    - - '2'
-      - A
-    - - '2'
-      - B
-    - - '1'
-      - B
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-LIVING
-  name: พักผ่อน (Living)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: 0.0
-  placement:
-    storey: L1
-    boundary:
-    - - 1 - 0.60
-      - B
-    - - '2'
-      - B
-    - - '2'
-      - C
-    - - '1'
-      - C
-    - - 1 - 0.60
-      - C
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-DINING
-  name: ทานอาหาร (Dining)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: 0.0
-  placement:
-    storey: L1
-    boundary:
-    - - '2'
-      - C
-    - - '4'
-      - C
-    - - '4'
-      - E
-    - - '2'
-      - E
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-KITCHEN
-  name: ครัวไทย (Kitchen)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: -0.1
-  placement:
-    storey: L1
-    boundary:
-    - - '2'
-      - E
-    - - '4'
-      - E
-    - - '4'
-      - F
-    - - '2'
-      - F
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-TOILET-1
-  name: ห้องน้ำ 1 (Toilet 1)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: -0.1
-  placement:
-    storey: L1
-    boundary:
-    - - '3'
-      - D
-    - - '4'
-      - D
-    - - '4'
-      - E
-    - - '3'
-      - E
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-BED-1
-  name: ห้องนอนใหญ่ (Master Bed)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: 0.0
-  placement:
-    storey: L2
-    boundary:
-    - - 1 - 0.60
-      - B
-    - - '1'
-      - B - 0.70
-    - - '2'
-      - B - 0.70
-    - - '2'
-      - C
-    - - 1 - 0.60
-      - C
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-BED-2
-  name: ห้องนอน 2 (Bed 2)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: 0.0
-  placement:
-    storey: L2
-    boundary:
-    - - '2'
-      - B
-    - - '4'
-      - B
-    - - '4'
-      - C
-    - - '2'
-      - C
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-BED-3
-  name: ห้องนอน 3 (Bed 3)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: 0.0
-  placement:
-    storey: L2
-    boundary:
-    - - 1 - 0.60
-      - D
-    - - '2'
-      - D
-    - - '2'
-      - E
-    - - 1 - 0.60
-      - E
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-TOILET-2
-  name: ห้องน้ำ 2 (Toilet 2)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: -0.1
-  placement:
-    storey: L2
-    boundary:
-    - - 1 - 0.60
-      - C
-    - - '2'
-      - C
-    - - '2'
-      - D
-    - - 1 - 0.60
-      - D
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-TOILET-3
-  name: ห้องน้ำ 3 (Toilet 3)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: -0.1
-  placement:
-    storey: L2
-    boundary:
-    - - '2'
-      - E - 2.40
-    - - '3'
-      - E - 2.40
-    - - '3'
-      - E
-    - - '2'
-      - E
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-BALCONY-1
-  name: ระเบียง (Balcony)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: -0.1
-  placement:
-    storey: L2
-    boundary:
-    - - '1'
-      - A
-    - - '2'
-      - A
-    - - '2'
-      - B - 0.70
-    - - '1'
-      - B - 0.70
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-HALL-2
-  name: โถงชั้น 2 (Upper Hall)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: 0.0
-  placement:
-    storey: L2
-    boundary:
-    - - '2'
-      - C
-    - - '4'
-      - C
-    - - '4'
-      - E
-    - - '2'
-      - E
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
-- class: IfcSpace
-  tag: SPACE-STAIR
-  name: โถงบันได (Stair)
-  height: 2.8
-  floor_thickness: 0.0
-  drop_elevation: 0.0
-  placement:
-    storey: L1
-    boundary:
-    - - '3'
-      - C
-    - - 4 + 0.50
-      - C
-    - - 4 + 0.50
-      - D
-    - - '3'
-      - D
-    offset_z: 0.0
-  must_connect: []
-  properties: {}
-  layer: architecture/spaces
+  # ==========================================
+  # สเปซพื้นที่ใช้สอยชั้นที่ 1 (L1)
+  # ==========================================
+  - class: IfcSpace
+    tag: SPACE-PARK
+    name: ที่จอดรถ (2 คัน)
+    height: 2.80
+    floor_thickness: 0.12
+    drop_elevation: -0.15
+    placement:
+      storey: L1
+      boundary: [["1", "A"], ["4", "A"], ["4", "D"], ["1", "D"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-PORCH
+    name: เฉลียงทางเข้าหลัก
+    height: 2.85
+    floor_thickness: 0.10
+    drop_elevation: -0.05
+    placement:
+      storey: L1
+      boundary: [["4", "B"], ["5", "B"], ["5", "C"], ["4", "C"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-FOYER-L1
+    name: โถงต้อนรับและทางเดินชั้น 1
+    height: 2.90
+    floor_thickness: 0.12
+    placement:
+      storey: L1
+      boundary: [["4", "C"], ["5", "C"], ["5", "E"], ["4", "E"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-LIVING
+    name: ห้องรับแขกและนั่งเล่น
+    height: 2.90
+    floor_thickness: 0.12
+    placement:
+      storey: L1
+      boundary: [["5", "B"], ["7", "B"], ["7", "D"], ["5", "D"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-DINING
+    name: ห้องรับประทานอาหาร
+    height: 2.90
+    floor_thickness: 0.12
+    placement:
+      storey: L1
+      boundary: [["5", "D"], ["7", "D"], ["7", "F"], ["5", "F"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-KITCHEN
+    name: ห้องครัว
+    height: 2.70
+    floor_thickness: 0.12
+    placement:
+      storey: L1
+      boundary: [["5", "F"], ["7", "F"], ["7", "G"], ["5", "G"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-WC-GUEST
+    name: ห้องน้ำแขก (Powder Room)
+    height: 2.60
+    floor_thickness: 0.10
+    drop_elevation: -0.05
+    placement:
+      storey: L1
+      boundary: [["3", "D"], ["4", "D"], ["4", "E"], ["3", "E"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-STAIR-L1
+    name: โถงบันได
+    height: 3.20
+    floor_thickness: 0.12
+    placement:
+      storey: L1
+      boundary: [["4", "E"], ["5", "E"], ["5", "F"], ["4", "F"]]
+    layer: architecture/spaces
+
+  # ==========================================
+  # สเปซพื้นที่ใช้สอยชั้นที่ 2 (L2)
+  # ==========================================
+  - class: IfcSpace
+    tag: SPACE-HALL-L2
+    name: โถงทางเดินชั้นสอง
+    height: 3.00
+    floor_thickness: 0.12
+    placement:
+      storey: L2
+      boundary: [["4", "C"], ["5", "C"], ["5", "F"], ["4", "F"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-MBR
+    name: Master Bedroom
+    height: 3.00
+    floor_thickness: 0.12
+    placement:
+      storey: L2
+      boundary: [["5", "B"], ["7", "B"], ["7", "D"], ["5", "D"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-MBR-CLOSET
+    name: Walk-in Closet (Master)
+    height: 2.80
+    floor_thickness: 0.12
+    placement:
+      storey: L2
+      boundary: [["5", "D"], ["6", "D"], ["6", "F"], ["5", "F"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-MBR-BATH
+    name: Master Bathroom (En-suite)
+    height: 2.60
+    floor_thickness: 0.10
+    drop_elevation: -0.05
+    placement:
+      storey: L2
+      boundary: [["6", "D"], ["7", "D"], ["7", "F"], ["6", "F"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-BED2
+    name: Bedroom 2
+    height: 3.00
+    floor_thickness: 0.12
+    placement:
+      storey: L2
+      boundary: [["2", "B"], ["4", "B"], ["4", "D"], ["2", "D"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-BED2-BATH
+    name: Bathroom 2 (En-suite)
+    height: 2.60
+    floor_thickness: 0.10
+    drop_elevation: -0.05
+    placement:
+      storey: L2
+      boundary: [["3", "D"], ["4", "D"], ["4", "E"], ["3", "E"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-BED3
+    name: Bedroom 3
+    height: 3.00
+    floor_thickness: 0.12
+    placement:
+      storey: L2
+      boundary: [["2", "E"], ["4", "E"], ["4", "F"], ["2", "F"]]
+    layer: architecture/spaces
+  - class: IfcSpace
+    tag: SPACE-BED3-BATH
+    name: Bathroom 3 (En-suite)
+    height: 2.60
+    floor_thickness: 0.10
+    drop_elevation: -0.05
+    placement:
+      storey: L2
+      boundary: [["3", "E"], ["4", "E"], ["4", "F"], ["3", "F"]]
+    layer: architecture/spaces

@@ -1,139 +1,58 @@
 elements:
-- class: IfcPipeSegment
-  tag: PIPE-SOIL-MAIN
-  system_type: COLD_WATER
-  nominal_diameter: 0.1
-  placement:
-    storey: L1
-    from_grid:
-    - '3'
-    - D
-    to_grid:
-    - '3'
-    - E
-    from_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    to_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    routing: DIRECT
-    slope: 0.0
-  ports: []
-- class: IfcPipeSegment
-  tag: PIPE-WASTE-MAIN
-  system_type: COLD_WATER
-  nominal_diameter: 0.05
-  placement:
-    storey: L1
-    from_grid:
-    - '1'
-    - C
-    to_grid:
-    - '1'
-    - D
-    from_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    to_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    routing: DIRECT
-    slope: 0.0
-  ports: []
-- class: IfcPipeSegment
-  tag: PIPE-CW-SUPPLY
-  system_type: COLD_WATER
-  nominal_diameter: 0.02
-  placement:
-    storey: L1
-    from_grid:
-    - '1'
-    - A
-    to_grid:
-    - '3'
-    - E
-    from_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    to_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    routing: DIRECT
-    slope: 0.0
-  ports: []
-- class: IfcPipeSegment
-  tag: PIPE-REFRIG-18K
-  system_type: COLD_WATER
-  nominal_diameter: 0.012
-  placement:
-    storey: L1
-    from_grid:
-    - '1'
-    - B
-    to_grid:
-    - '4'
-    - E
-    from_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    to_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    routing: DIRECT
-    slope: 0.0
-  ports: []
-- class: IfcPipeSegment
-  tag: SOIL-PIPE-4IN-L1
-  system_type: COLD_WATER
-  nominal_diameter: 0.1
-  placement:
-    storey: L1
-    from_grid:
-    - '3'
-    - C
-    to_grid:
-    - '3'
-    - A
-    from_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    to_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    routing: DIRECT
-    slope: 0.0
-  ports: []
-- class: IfcPipeSegment
-  tag: WASTE-PIPE-2IN-L1
-  system_type: COLD_WATER
-  nominal_diameter: 0.05
-  placement:
-    storey: L1
-    from_grid:
-    - '4'
-    - C
-    to_grid:
-    - '4'
-    - A
-    from_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    to_offset:
-    - 0.0
-    - 0.0
-    - 0.0
-    routing: DIRECT
-    slope: 0.0
-  ports: []
+  # ==========================================
+  # ระบบท่อประปาและน้ำดี (Cold Water Supply)
+  # ==========================================
+  - class: IfcPipeSegment
+    tag: PIPE-CW-MAIN-FEED
+    name: ท่อเมนประปาเข้าจากมิเตอร์หน้าบ้าน
+    system_type: COLD_WATER
+    nominal_diameter: 0.025
+    placement:
+      storey: L1
+      from_grid: ["7", "A"]
+      to_grid: ["7", "D"]
+    layer: mep/cold_water
+
+  - class: IfcPipeSegment
+    tag: PIPE-CW-TO-KITCHEN
+    name: ท่อประปาแยกจ่ายห้องครัว
+    system_type: COLD_WATER
+    nominal_diameter: 0.020
+    placement:
+      storey: L1
+      from_grid: ["7", "D"]
+      to_grid: ["7", "G"]
+    layer: mep/cold_water
+
+  - class: IfcPipeSegment
+    tag: PIPE-CW-TO-WC-GUEST
+    name: ท่อประปาจ่ายห้องน้ำแขกชั้นล่าง
+    system_type: COLD_WATER
+    nominal_diameter: 0.015
+    placement:
+      storey: L1
+      from_grid: ["4", "D"]
+      to_grid: ["3", "D"]
+    layer: mep/cold_water
+
+  - class: IfcPipeSegment
+    tag: PIPE-CW-RISER-L2
+    name: ท่อไรเซอร์ประปาขึ้นชั้น 2
+    system_type: COLD_WATER
+    nominal_diameter: 0.025
+    placement:
+      storey: L2
+      from_grid: ["4", "E"]
+      to_grid: ["4", "F"]
+    layer: mep/cold_water
+
+  - class: IfcPipeSegment
+    tag: PIPE-CW-L2-TO-MBR
+    name: ท่อประปาจ่าย Master Bathroom
+    system_type: COLD_WATER
+    nominal_diameter: 0.020
+    placement:
+      storey: L2
+      from_grid: ["5", "E"]
+      to_grid: ["6", "E"]
+    layer: mep/cold_water

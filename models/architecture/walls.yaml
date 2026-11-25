@@ -1,1129 +1,172 @@
 elements:
-- class: IfcWall
-  tag: W1-LIVING-BAY-RET-S
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '1'
-    - B
-    to_grid:
-    - 1 - 0.60
-    - B
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-LIVING-BAY-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - B
-    to_grid:
-    - 1 - 0.60
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N1-LIVING
-    dimensions:
-      width: 1.4
-      height: 1.2
-    offset_distance: 3.7
-    at_grid:
-    - '1'
-    - C
-    sill_height: 0.9
-    flipped: false
-    host_wall: W1-LIVING-BAY-WALL
-- class: IfcWall
-  tag: W1-LIVING-BAY-RET-N
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - C
-    to_grid:
-    - '1'
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-EXT-WEST-HALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '1'
-    - C
-    to_grid:
-    - '1'
-    - E
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N5-STAIR
-    dimensions:
-      width: 1.4
-      height: 2.05
-    offset_distance: 0.0
-    at_grid:
-    - '1'
-    - C
-    sill_height: 0.4
-    flipped: false
-    host_wall: W1-EXT-WEST-HALL
-- class: IfcWall
-  tag: W1-EXT-SOUTH-LIVING
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '1'
-    - B
-    to_grid:
-    - '2'
-    - B
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcDoor
-    tag: DOOR-D1-MAIN
-    dimensions:
-      width: 2.6
-      height: 2.05
-    offset_distance: 6.0
-    at_grid:
-    - '3'
-    - B
-    sill_height: 0.0
-    flipped: false
-    host_wall: W1-EXT-SOUTH-LIVING
-- class: IfcWall
-  tag: W1-EXT-SOUTH-CARPORT
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '2'
-    - B
-    to_grid:
-    - '4'
-    - B
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N4-02
-    dimensions:
-      width: 2.8
-      height: 1.2
-    offset_distance: 2.0
-    at_grid:
-    - '3'
-    - B
-    sill_height: 0.9
-    flipped: false
-    host_wall: W1-EXT-SOUTH-CARPORT
-- class: IfcWall
-  tag: W1-EXT-NORTH-HALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '1'
-    - E
-    to_grid:
-    - '2'
-    - E
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N1-DINING
-    dimensions:
-      width: 1.4
-      height: 1.2
-    offset_distance: 4.0
-    at_grid:
-    - '2'
-    - E
-    sill_height: 0.9
-    flipped: false
-    host_wall: W1-EXT-NORTH-HALL
-- class: IfcWall
-  tag: W1-KITCHEN-WEST
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '2'
-    - E
-    to_grid:
-    - '2'
-    - F
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-KITCHEN-REAR
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '2'
-    - F
-    to_grid:
-    - '4'
-    - F
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-KITCHEN-EAST
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '4'
-    - F
-    to_grid:
-    - '4'
-    - E
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-INT-LIVING-DIV
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '2'
-    - B
-    to_grid:
-    - '2'
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-INT-KITCHEN-DIV
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.8859
-  placement:
-    from_grid:
-    - '2'
-    - E
-    to_grid:
-    - '4'
-    - E
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcDoor
-    tag: DOOR-D3-KITCHEN
-    dimensions:
-      width: 0.7
-      height: 2.0
-    offset_distance: 0.0
-    at_grid:
-    - '2'
-    - C
-    sill_height: 0.0
-    flipped: false
-    host_wall: W1-INT-KITCHEN-DIV
-  - class: IfcWindow
-    tag: WIN-N3-BATH1
-    dimensions:
-      width: 1.4
-      height: 0.5
-    offset_distance: 2.0
-    at_grid:
-    - '3'
-    - E
-    sill_height: 1.8
-    flipped: false
-    host_wall: W1-INT-KITCHEN-DIV
-- class: IfcWall
-  tag: W1-TOILET-1-W
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.734
-  placement:
-    from_grid:
-    - '3'
-    - D
-    to_grid:
-    - '3'
-    - E
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-TOILET-1-S
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.734
-  placement:
-    from_grid:
-    - '3'
-    - D
-    to_grid:
-    - '4'
-    - D
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcDoor
-    tag: DOOR-D3-BATH1
-    dimensions:
-      width: 0.7
-      height: 2.0
-    offset_distance: 0.0
-    at_grid:
-    - '3'
-    - D
-    sill_height: 0.0
-    flipped: false
-    host_wall: W1-TOILET-1-S
-- class: IfcWall
-  tag: W2-MBED-FRONT-RET-W
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '1'
-    - B
-    to_grid:
-    - '1'
-    - B - 0.70
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-MBED-FRONT-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '1'
-    - B - 0.70
-    to_grid:
-    - '2'
-    - B - 0.70
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcDoor
-    tag: DOOR-D1-BALCONY
-    dimensions:
-      width: 2.6
-      height: 2.05
-    offset_distance: 0.0
-    at_grid:
-    - '1'
-    - B
-    sill_height: 0.0
-    flipped: false
-    host_wall: W2-MBED-FRONT-WALL
-- class: IfcWall
-  tag: W2-MBED-FRONT-RET-E
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '2'
-    - B - 0.70
-    to_grid:
-    - '2'
-    - B
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-BED2-FRONT-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '2'
-    - B
-    to_grid:
-    - '4'
-    - B
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N1-BED2
-    dimensions:
-      width: 1.4
-      height: 1.2
-    offset_distance: 2.0
-    at_grid:
-    - '3'
-    - B
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-BED2-FRONT-WALL
-  - class: IfcWindow
-    tag: WIN-N2-05
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 0.0
-    at_grid:
-    - '2'
-    - B
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-BED2-FRONT-WALL
-  - class: IfcWindow
-    tag: WIN-N4-03
-    dimensions:
-      width: 2.8
-      height: 1.2
-    offset_distance: 2.0
-    at_grid:
-    - '3'
-    - B
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-BED2-FRONT-WALL
-  - class: IfcWindow
-    tag: WIN-N4-04
-    dimensions:
-      width: 2.8
-      height: 1.2
-    offset_distance: 5.0
-    at_grid:
-    - '4'
-    - B
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-BED2-FRONT-WALL
-- class: IfcWall
-  tag: W2-WEST-RET-S
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '1'
-    - B
-    to_grid:
-    - 1 - 0.60
-    - B
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-MBED-BAY-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - B
-    to_grid:
-    - 1 - 0.60
-    - C
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N4-MASTER
-    dimensions:
-      width: 1.6
-      height: 1.45
-    offset_distance: 3.7
-    at_grid:
-    - '1'
-    - C
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-MBED-BAY-WALL
-- class: IfcWall
-  tag: W2-BATH2-WEST-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - C
-    to_grid:
-    - 1 - 0.60
-    - D
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N3-BATH2
-    dimensions:
-      width: 1.4
-      height: 0.5
-    offset_distance: 2.2
-    at_grid:
-    - '1'
-    - D
-    sill_height: 1.8
-    flipped: false
-    host_wall: W2-BATH2-WEST-WALL
-- class: IfcWall
-  tag: W2-BED3-WEST-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - D
-    to_grid:
-    - 1 - 0.60
-    - E
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N1-BED3
-    dimensions:
-      width: 1.4
-      height: 1.2
-    offset_distance: -5.9
-    at_grid:
-    - '4'
-    - B
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-BED3-WEST-WALL
-  - class: IfcWindow
-    tag: WIN-N2-08
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: -2.2
-    at_grid:
-    - '1'
-    - C
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-BED3-WEST-WALL
-  - class: IfcWindow
-    tag: WIN-N2-09
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 0.0
-    at_grid:
-    - '1'
-    - D
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-BED3-WEST-WALL
-- class: IfcWall
-  tag: W2-WEST-RET-N
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - E
-    to_grid:
-    - '1'
-    - E
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-EXT-NORTH
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '1'
-    - E
-    to_grid:
-    - '4'
-    - E
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N2-06
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 4.0
-    at_grid:
-    - '2'
-    - E
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-EXT-NORTH
-  - class: IfcWindow
-    tag: WIN-N2-07
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 6.0
-    at_grid:
-    - '3'
-    - E
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-EXT-NORTH
-  - class: IfcWindow
-    tag: WIN-N3-BATH3
-    dimensions:
-      width: 1.4
-      height: 0.5
-    offset_distance: 6.0
-    at_grid:
-    - '3'
-    - E
-    sill_height: 1.8
-    flipped: false
-    host_wall: W2-EXT-NORTH
-  - class: IfcWindow
-    tag: WIN-N4-05
-    dimensions:
-      width: 2.8
-      height: 1.2
-    offset_distance: 4.0
-    at_grid:
-    - '2'
-    - E
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-EXT-NORTH
-- class: IfcWall
-  tag: W2-INT-MBED-BATH2
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - C
-    to_grid:
-    - '2'
-    - C
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcDoor
-    tag: DOOR-D3-BATH2
-    dimensions:
-      width: 0.7
-      height: 2.0
-    offset_distance: 0.6
-    at_grid:
-    - '1'
-    - C
-    sill_height: 0.0
-    flipped: false
-    host_wall: W2-INT-MBED-BATH2
-- class: IfcWall
-  tag: W2-INT-BATH2-BED3
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - 1 - 0.60
-    - D
-    to_grid:
-    - '2'
-    - D
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-INT-SPINE-SOUTH
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '2'
-    - B
-    to_grid:
-    - '2'
-    - C
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcDoor
-    tag: DOOR-D2-BED1
-    dimensions:
-      width: 0.8
-      height: 2.0
-    offset_distance: 5.9
-    at_grid:
-    - '2'
-    - D
-    sill_height: 0.0
-    flipped: false
-    host_wall: W2-INT-SPINE-SOUTH
-- class: IfcWall
-  tag: W2-INT-SPINE-NORTH
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '2'
-    - D
-    to_grid:
-    - '2'
-    - E
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-INT-BED2-DIV
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '2'
-    - C
-    to_grid:
-    - '4'
-    - C
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-TOILET-3-S
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '2'
-    - E - 2.40
-    to_grid:
-    - '3'
-    - E - 2.40
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcDoor
-    tag: DOOR-D3-BATH3
-    dimensions:
-      width: 0.7
-      height: 2.0
-    offset_distance: 0.0
-    at_grid:
-    - '2'
-    - E
-    sill_height: 0.0
-    flipped: false
-    host_wall: W2-TOILET-3-S
-- class: IfcWall
-  tag: W2-TOILET-3-E
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71382
-  placement:
-    from_grid:
-    - '3'
-    - E - 2.40
-    to_grid:
-    - '3'
-    - E
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-FULL-BATH-WET
-  material: BRICK_MON
-  thickness: 0.2
-  height: 2.7795
-  placement:
-    from_grid:
-    - '3'
-    - C
-    to_grid:
-    - '3'
-    - D
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-FULL-BATH-WET
-  material: BRICK_MON
-  thickness: 0.2
-  height: 2.7589
-  placement:
-    from_grid:
-    - '3'
-    - C
-    to_grid:
-    - '3'
-    - D
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-FULL-FIREWALL-EAST
-  material: BRICK_MON
-  thickness: 0.2
-  height: 2.9339
-  placement:
-    from_grid:
-    - '4'
-    - A
-    to_grid:
-    - '4'
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-FULL-FIREWALL-EAST-L2
-  material: BRICK_MON
-  thickness: 0.2
-  height: 2.7589
-  placement:
-    from_grid:
-    - '4'
-    - A
-    to_grid:
-    - '4'
-    - C
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-EXT-EAST-SOUTH
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.81075
-  placement:
-    from_grid:
-    - '4'
-    - B
-    to_grid:
-    - '4'
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-STAIR-BAY-RET-S
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.81075
-  placement:
-    from_grid:
-    - '4'
-    - C
-    to_grid:
-    - 4 + 0.50
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-STAIR-BAY-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.81075
-  placement:
-    from_grid:
-    - 4 + 0.50
-    - C
-    to_grid:
-    - 4 + 0.50
-    - D
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N5-STAIR
-    dimensions:
-      width: 1.4
-      height: 2.05
-    offset_distance: 0.4
-    at_grid:
-    - 4 + 0.50
-    - C
-    sill_height: 1.8
-    flipped: false
-    host_wall: W1-STAIR-BAY-WALL
-- class: IfcWall
-  tag: W1-STAIR-BAY-RET-N
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.81075
-  placement:
-    from_grid:
-    - 4 + 0.50
-    - D
-    to_grid:
-    - '4'
-    - D
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-EXT-EAST-MAIN
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.81075
-  placement:
-    from_grid:
-    - '4'
-    - D
-    to_grid:
-    - '4'
-    - E
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N2-01
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 3.7
-    at_grid:
-    - '4'
-    - C
-    sill_height: 0.9
-    flipped: false
-    host_wall: W1-EXT-EAST-MAIN
-  - class: IfcWindow
-    tag: WIN-N2-02
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 5.9
-    at_grid:
-    - '4'
-    - D
-    sill_height: 0.9
-    flipped: false
-    host_wall: W1-EXT-EAST-MAIN
-- class: IfcWall
-  tag: W1-INT-STAIR-STORE
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.81075
-  placement:
-    from_grid:
-    - '3'
-    - C
-    to_grid:
-    - '4'
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W1-INT-STAIR-CORE
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.81075
-  placement:
-    from_grid:
-    - 3 + 1.20
-    - C
-    to_grid:
-    - 3 + 1.20
-    - D
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-EXT-EAST-SOUTH
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71032
-  placement:
-    from_grid:
-    - '4'
-    - B
-    to_grid:
-    - '4'
-    - C
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N2-03
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 3.7
-    at_grid:
-    - '4'
-    - C
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-EXT-EAST-SOUTH
-- class: IfcWall
-  tag: W2-STAIR-BAY-RET-S
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71032
-  placement:
-    from_grid:
-    - '4'
-    - C
-    to_grid:
-    - 4 + 0.50
-    - C
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-STAIR-BAY-WALL
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71032
-  placement:
-    from_grid:
-    - 4 + 0.50
-    - C
-    to_grid:
-    - 4 + 0.50
-    - D
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-STAIR-BAY-RET-N
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71032
-  placement:
-    from_grid:
-    - 4 + 0.50
-    - D
-    to_grid:
-    - '4'
-    - D
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
-- class: IfcWall
-  tag: W2-EXT-EAST
-  material: BRICK_MON
-  thickness: 0.1
-  height: 2.71032
-  placement:
-    from_grid:
-    - '4'
-    - D
-    to_grid:
-    - '4'
-    - E
-    storey: L2
-    offset_x: 0.0
-    offset_y: 0.0
-  children:
-  - class: IfcWindow
-    tag: WIN-N2-04
-    dimensions:
-      width: 0.7
-      height: 1.2
-    offset_distance: 5.9
-    at_grid:
-    - '4'
-    - D
-    sill_height: 0.9
-    flipped: false
-    host_wall: W2-EXT-EAST
-- class: IfcWall
-  tag: W1-FULL-STAIR-FOUND
-  material: BRICK_MON
-  thickness: 0.2
-  height: 1.1684
-  placement:
-    from_grid:
-    - '3'
-    - C
-    to_grid:
-    - '4'
-    - C
-    storey: L1
-    offset_x: 0.0
-    offset_y: 0.0
-  children: []
+  # ==========================================
+  # ผนังชั้นที่ 1 (L1)
+  # ==========================================
+  # ผนังรอบห้องรับแขก (Living Room)
+  - class: IfcWall
+    tag: WALL-L1-LIVING-SOUTH
+    name: ผนังหน้าห้องรับแขก
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 2.90
+    placement: { from_grid: ["5", "B"], to_grid: ["7", "B"], storey: L1 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L1-LIVING-EAST
+    name: ผนังข้างห้องรับแขกฝั่งตะวันออก
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 2.90
+    placement: { from_grid: ["7", "B"], to_grid: ["7", "D"], storey: L1 }
+    layer: architecture/walls
+
+  # ผนังห้องรับประทานอาหาร (Dining Room)
+  - class: IfcWall
+    tag: WALL-L1-DINING-EAST
+    name: ผนังห้องทานอาหารฝั่งตะวันออก
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 2.90
+    placement: { from_grid: ["7", "D"], to_grid: ["7", "F"], storey: L1 }
+    layer: architecture/walls
+
+  # ผนังห้องครัว (Kitchen)
+  - class: IfcWall
+    tag: WALL-L1-KITCHEN-EAST
+    name: ผนังครัวฝั่งตะวันออก
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 2.70
+    placement: { from_grid: ["7", "F"], to_grid: ["7", "G"], storey: L1 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L1-KITCHEN-NORTH
+    name: ผนังครัวฝั่งหลังบ้าน
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 2.70
+    placement: { from_grid: ["5", "G"], to_grid: ["7", "G"], storey: L1 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L1-KITCHEN-WEST
+    name: ผนังกั้นครัวกับซักล้าง
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 2.70
+    placement: { from_grid: ["5", "F"], to_grid: ["5", "G"], storey: L1 }
+    layer: architecture/walls
+
+  # ผนังห้องน้ำแขก (Powder Room - ใช้อิฐมอญกันชื้น)
+  - class: IfcWall
+    tag: WALL-L1-WC-WEST
+    name: ผนังห้องน้ำแขกฝั่งซ้าย
+    material: BRICK_MON
+    thickness: 0.10
+    height: 2.60
+    placement: { from_grid: ["3", "D"], to_grid: ["3", "E"], storey: L1 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L1-WC-SOUTH
+    name: ผนังห้องน้ำแขกฝั่งใต้
+    material: BRICK_MON
+    thickness: 0.10
+    height: 2.60
+    placement: { from_grid: ["3", "D"], to_grid: ["4", "D"], storey: L1 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L1-WC-NORTH
+    name: ผนังห้องน้ำแขกฝั่งเหนือ
+    material: BRICK_MON
+    thickness: 0.10
+    height: 2.60
+    placement: { from_grid: ["3", "E"], to_grid: ["4", "E"], storey: L1 }
+    layer: architecture/walls
+
+  # ==========================================
+  # ผนังชั้นที่ 2 (L2)
+  # ==========================================
+  # ผนังรอบ Master Bedroom
+  - class: IfcWall
+    tag: WALL-L2-MBR-SOUTH
+    name: ผนังหน้าห้องนอนใหญ่
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 3.00
+    placement: { from_grid: ["5", "B"], to_grid: ["7", "B"], storey: L2 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L2-MBR-EAST
+    name: ผนังข้างห้องนอนใหญ่
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 3.00
+    placement: { from_grid: ["7", "B"], to_grid: ["7", "D"], storey: L2 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L2-MBR-BATH-EAST
+    name: ผนังข้างห้องน้ำ Master
+    material: BRICK_MON
+    thickness: 0.10
+    height: 2.60
+    placement: { from_grid: ["7", "D"], to_grid: ["7", "F"], storey: L2 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L2-MBR-BATH-NORTH
+    name: ผนังหลังห้องน้ำ Master
+    material: BRICK_MON
+    thickness: 0.10
+    height: 2.60
+    placement: { from_grid: ["5", "F"], to_grid: ["7", "F"], storey: L2 }
+    layer: architecture/walls
+
+  # ผนัง Bedroom 2
+  - class: IfcWall
+    tag: WALL-L2-BED2-SOUTH
+    name: ผนังหน้า Bedroom 2
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 3.00
+    placement: { from_grid: ["2", "B"], to_grid: ["4", "B"], storey: L2 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L2-BED2-WEST
+    name: ผนังข้าง Bedroom 2
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 3.00
+    placement: { from_grid: ["2", "B"], to_grid: ["2", "D"], storey: L2 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L2-BED2-BATH-WEST
+    name: ผนังห้องน้ำ 2
+    material: BRICK_MON
+    thickness: 0.10
+    height: 2.60
+    placement: { from_grid: ["3", "D"], to_grid: ["3", "E"], storey: L2 }
+    layer: architecture/walls
+
+  # ผนัง Bedroom 3
+  - class: IfcWall
+    tag: WALL-L2-BED3-WEST
+    name: ผนังข้าง Bedroom 3
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 3.00
+    placement: { from_grid: ["2", "E"], to_grid: ["2", "F"], storey: L2 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L2-BED3-NORTH
+    name: ผนังหลัง Bedroom 3
+    material: AAC_BLOCK
+    thickness: 0.10
+    height: 3.00
+    placement: { from_grid: ["2", "F"], to_grid: ["4", "F"], storey: L2 }
+    layer: architecture/walls
+  - class: IfcWall
+    tag: WALL-L2-BED3-BATH-WEST
+    name: ผนังห้องน้ำ 3
+    material: BRICK_MON
+    thickness: 0.10
+    height: 2.60
+    placement: { from_grid: ["3", "E"], to_grid: ["3", "F"], storey: L2 }
+    layer: architecture/walls

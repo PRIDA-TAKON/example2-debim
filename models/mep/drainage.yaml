@@ -1,0 +1,36 @@
+elements:
+  # ==========================================
+  # ระบบระบายน้ำทิ้ง น้ำโสโครก และบำบัดน้ำเสีย (Drainage & Sewer)
+  # ==========================================
+  - class: IfcPipeSegment
+    tag: PIPE-SOIL-STACK-WEST
+    name: ท่อโสโครกหลักห้องน้ำปีกซ้าย (Soil Stack)
+    system_type: SOIL
+    nominal_diameter: 0.100
+    placement:
+      storey: L1
+      from_grid: ["3", "D"]
+      to_grid: ["3", "E"]
+    layer: mep/drainage
+
+  - class: IfcPipeSegment
+    tag: PIPE-WASTE-KITCHEN
+    name: ท่อน้ำทิ้งครัวต่อเข้าบ่อดักไขมัน
+    system_type: WASTE
+    nominal_diameter: 0.050
+    placement:
+      storey: L1
+      from_grid: ["6", "G"]
+      to_grid: ["5", "G"]
+    layer: mep/drainage
+
+  - class: IfcPipeSegment
+    tag: PIPE-DRAIN-OUT-TO-PUBLIC
+    name: ท่อระบายน้ำทิ้งหลักเชื่อมออกสู่ท่อระบายน้ำสาธารณะหน้าบ้าน
+    system_type: DRAINAGE
+    nominal_diameter: 0.150
+    placement:
+      storey: L1
+      from_grid: ["4", "D"]
+      to_grid: ["4", "A"]
+    layer: mep/drainage

@@ -1,1082 +1,257 @@
 elements:
-- class: IfcColumn
-  tag: STUB-1A
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - A
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-2A
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '2'
-    - A
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-1B
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - B
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-2B
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '2'
-    - B
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-4B
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - B
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-1C
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - C
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-2C
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.25
-    depth: 0.25
-  placement:
-    grid:
-    - '2'
-    - C
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-4C
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - C
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-1D
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - D
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-3D
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.25
-    depth: 0.25
-  placement:
-    grid:
-    - '3'
-    - D
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-4D
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - D
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-1E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - E
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-2E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.25
-    depth: 0.25
-  placement:
-    grid:
-    - '2'
-    - E
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-3E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '3'
-    - E
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-4E
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - E
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-2F
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.1
-    depth: 0.1
-  placement:
-    grid:
-    - '2'
-    - F
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: STUB-4F
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.1
-    depth: 0.1
-  placement:
-    grid:
-    - '4'
-    - F
-    base_storey: Foundation
-    top_storey: L1
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1A-1A-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - A
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1A-2A-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '2'
-    - A
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-1B-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - B
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-2B-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '2'
-    - B
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-4B-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - B
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-1C-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - C
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C2-2C-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.25
-    depth: 0.25
-  placement:
-    grid:
-    - '2'
-    - C
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-4C-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - C
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-1D-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - D
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C2-3D-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.25
-    depth: 0.25
-  placement:
-    grid:
-    - '3'
-    - D
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-4D-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - D
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1A-1E-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - E
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C2A-2E-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.25
-    depth: 0.25
-  placement:
-    grid:
-    - '2'
-    - E
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1A-3E-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '3'
-    - E
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1A-4E-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - E
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C0-2F-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.1
-    depth: 0.1
-  placement:
-    grid:
-    - '2'
-    - F
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C0-4F-L1
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.1
-    depth: 0.1
-  placement:
-    grid:
-    - '4'
-    - F
-    base_storey: L1
-    top_storey: L2
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-1B-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - B
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-2B-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '2'
-    - B
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-4B-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - B
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-1C-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - C
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-2C-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '2'
-    - C
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-4C-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - C
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-1D-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - D
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-3D-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '3'
-    - D
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-4D-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - D
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-1E-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '1'
-    - E
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-2E-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '2'
-    - E
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-3E-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '3'
-    - E
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
-- class: IfcColumn
-  tag: C1-4E-L2
-  material: CONC_210
-  profile:
-    shape: BOX
-    width: 0.2
-    depth: 0.2
-  placement:
-    grid:
-    - '4'
-    - E
-    base_storey: L2
-    top_storey: Roof
-    offset_base:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_top:
-    - 0.0
-    - 0.0
-    - 0.0
-    offset_x: 0.0
-    offset_y: 0.0
+  # ==========================================
+  # เสาตอม่อ (Foundation -> L1)
+  # ==========================================
+  - class: IfcColumn
+    tag: STUB-1A
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["1", "A"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-4A
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "A"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-1D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["1", "D"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-2B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["2", "B"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-4B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "B"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-5B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "B"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-7B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "B"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-2D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["2", "D"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-4D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "D"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-5D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "D"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-7D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "D"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-4E
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "E"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-2F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["2", "F"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-4F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "F"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-5F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "F"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-7F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "F"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-5G
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "G"], base_storey: Foundation, top_storey: L1 }
+  - class: IfcColumn
+    tag: STUB-7G
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "G"], base_storey: Foundation, top_storey: L1 }
+
+  # ==========================================
+  # เสาชั้นที่ 1 (L1 -> L2)
+  # ==========================================
+  - class: IfcColumn
+    tag: C1-1A
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["1", "A"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-4A
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "A"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-1D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["1", "D"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-2B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["2", "B"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-4B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "B"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-5B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "B"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-7B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "B"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-2D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["2", "D"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-4D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "D"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-5D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "D"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-7D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "D"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-4E
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "E"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-2F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["2", "F"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-4F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["4", "F"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-5F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "F"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-7F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "F"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-5G
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["5", "G"], base_storey: L1, top_storey: L2 }
+  - class: IfcColumn
+    tag: C1-7G
+    material: CONC_240
+    profile: { shape: BOX, width: 0.25, depth: 0.25 }
+    placement: { grid: ["7", "G"], base_storey: L1, top_storey: L2 }
+
+  # ==========================================
+  # เสาชั้นที่ 2 (L2 -> Roof)
+  # ==========================================
+  - class: IfcColumn
+    tag: C2-2B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["2", "B"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-4B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["4", "B"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-5B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["5", "B"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-7B
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["7", "B"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-2D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["2", "D"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-4D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["4", "D"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-5D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["5", "D"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-7D
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["7", "D"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-4E
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["4", "E"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-2F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["2", "F"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-4F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["4", "F"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-5F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["5", "F"], base_storey: L2, top_storey: Roof }
+  - class: IfcColumn
+    tag: C2-7F
+    material: CONC_240
+    profile: { shape: BOX, width: 0.20, depth: 0.20 }
+    placement: { grid: ["7", "F"], base_storey: L2, top_storey: Roof }

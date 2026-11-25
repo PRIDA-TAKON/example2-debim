@@ -1,0 +1,251 @@
+{
+  "project_info": {
+    "name": "Modern Tropical Two-Storey Residence",
+    "description": "3 Bedrooms with En-suite Bathrooms, Living, Dining, Kitchen, Foyer, and Double Parking"
+  },
+  "site": {
+    "lot_width": 20.0,
+    "lot_depth": 20.0,
+    "lot_area_sqm": 400.0,
+    "boundary_polygon": [
+      [0.0, 0.0],
+      [20.0, 0.0],
+      [20.0, 20.0],
+      [0.0, 20.0]
+    ],
+    "front_road": {
+      "side": "south",
+      "road_width_m": 6.0,
+      "setback_required_m": 3.0
+    },
+    "setbacks": {
+      "front_min_y": 3.0,
+      "back_max_y": 18.0,
+      "left_min_x": 2.0,
+      "right_max_x": 18.0
+    },
+    "zoning": {
+      "min_open_space_ratio_pct": 30.0,
+      "max_building_coverage_pct": 70.0
+    },
+    "mep_infrastructures": [
+      {"name": "Public Drainage Main", "location": "south_edge", "y": 0.0, "x_range": [0.0, 20.0]},
+      {"name": "Water Main Meter", "location": "south_east", "x": 18.0, "y": 0.0},
+      {"name": "Electrical Main Feed", "location": "south_west", "x": 2.0, "y": 0.0}
+    ]
+  },
+  "spaces": [
+    {
+      "id": "SPACE_PARK",
+      "name": "Parking (2 Cars)",
+      "storey": 1,
+      "category": "outdoor",
+      "bounds": [2.5, 3.5, 8.0, 9.0],
+      "elevation": 0.0,
+      "height": 2.8,
+      "direct_connections": ["SITE_ROAD", "SPACE_PORCH"]
+    },
+    {
+      "id": "SPACE_PORCH",
+      "name": "Front Porch & Entrance",
+      "storey": 1,
+      "category": "circulation",
+      "bounds": [8.0, 4.5, 10.5, 7.5],
+      "elevation": 0.15,
+      "height": 2.85,
+      "direct_connections": ["SPACE_PARK", "SPACE_FOYER_L1", "SITE_ROAD"]
+    },
+    {
+      "id": "SPACE_FOYER_L1",
+      "name": "Ground Foyer & Distribution Hall",
+      "storey": 1,
+      "category": "circulation",
+      "bounds": [8.0, 7.5, 10.5, 12.0],
+      "elevation": 0.3,
+      "height": 2.9,
+      "direct_connections": ["SPACE_PORCH", "SPACE_LIVING", "SPACE_WC_GUEST", "SPACE_STAIR_L1"]
+    },
+    {
+      "id": "SPACE_LIVING",
+      "name": "Living Room",
+      "storey": 1,
+      "category": "living",
+      "bounds": [10.5, 4.5, 15.5, 9.5],
+      "elevation": 0.3,
+      "height": 2.9,
+      "direct_connections": ["SPACE_FOYER_L1", "SPACE_DINING"]
+    },
+    {
+      "id": "SPACE_DINING",
+      "name": "Dining Room",
+      "storey": 1,
+      "category": "living",
+      "bounds": [10.5, 9.5, 15.5, 14.5],
+      "elevation": 0.3,
+      "height": 2.9,
+      "direct_connections": ["SPACE_LIVING", "SPACE_KITCHEN"]
+    },
+    {
+      "id": "SPACE_KITCHEN",
+      "name": "Kitchen",
+      "storey": 1,
+      "category": "service",
+      "bounds": [10.5, 14.5, 14.5, 18.0],
+      "elevation": 0.3,
+      "height": 2.7,
+      "direct_connections": ["SPACE_DINING", "SPACE_LAUNDRY"]
+    },
+    {
+      "id": "SPACE_LAUNDRY",
+      "name": "Laundry & Service Yard",
+      "storey": 1,
+      "category": "service",
+      "bounds": [7.0, 15.5, 10.5, 18.0],
+      "elevation": 0.15,
+      "height": 2.85,
+      "direct_connections": ["SPACE_KITCHEN"]
+    },
+    {
+      "id": "SPACE_WC_GUEST",
+      "name": "Powder Room (Guest Toilet)",
+      "storey": 1,
+      "category": "bathroom",
+      "bounds": [6.0, 10.0, 8.0, 12.0],
+      "elevation": 0.28,
+      "height": 2.6,
+      "direct_connections": ["SPACE_FOYER_L1"]
+    },
+    {
+      "id": "SPACE_STAIR_L1",
+      "name": "Stairwell L1 to L2",
+      "storey": 1,
+      "category": "circulation",
+      "bounds": [8.0, 12.0, 10.5, 15.5],
+      "elevation": 0.3,
+      "height": 3.2,
+      "direct_connections": ["SPACE_FOYER_L1", "SPACE_HALL_L2"]
+    },
+    {
+      "id": "SPACE_HALL_L2",
+      "name": "Upper Hallway L2",
+      "storey": 2,
+      "category": "circulation",
+      "bounds": [8.0, 8.5, 10.5, 15.5],
+      "elevation": 3.5,
+      "height": 3.0,
+      "direct_connections": ["SPACE_STAIR_L1", "SPACE_MBR", "SPACE_BED2", "SPACE_BED3"]
+    },
+    {
+      "id": "SPACE_MBR",
+      "name": "Master Bedroom",
+      "storey": 2,
+      "category": "bedroom",
+      "bounds": [10.5, 5.0, 15.5, 10.5],
+      "elevation": 3.5,
+      "height": 3.0,
+      "direct_connections": ["SPACE_HALL_L2", "SPACE_BALCONY", "SPACE_MBR_CLOSET"]
+    },
+    {
+      "id": "SPACE_BALCONY",
+      "name": "Master Balcony",
+      "storey": 2,
+      "category": "outdoor",
+      "bounds": [10.5, 3.5, 15.5, 5.0],
+      "elevation": 3.45,
+      "height": 3.0,
+      "direct_connections": ["SPACE_MBR"]
+    },
+    {
+      "id": "SPACE_MBR_CLOSET",
+      "name": "Master Walk-in Closet",
+      "storey": 2,
+      "category": "bedroom",
+      "bounds": [10.5, 10.5, 13.0, 13.5],
+      "elevation": 3.5,
+      "height": 2.8,
+      "direct_connections": ["SPACE_MBR", "SPACE_MBR_BATH"]
+    },
+    {
+      "id": "SPACE_MBR_BATH",
+      "name": "Master Bathroom (En-suite)",
+      "storey": 2,
+      "category": "bathroom",
+      "bounds": [13.0, 10.5, 15.5, 13.5],
+      "elevation": 3.48,
+      "height": 2.6,
+      "direct_connections": ["SPACE_MBR_CLOSET"]
+    },
+    {
+      "id": "SPACE_BED2",
+      "name": "Bedroom 2",
+      "storey": 2,
+      "category": "bedroom",
+      "bounds": [3.5, 5.0, 8.0, 9.5],
+      "elevation": 3.5,
+      "height": 3.0,
+      "direct_connections": ["SPACE_HALL_L2", "SPACE_BED2_BATH"]
+    },
+    {
+      "id": "SPACE_BED2_BATH",
+      "name": "Bathroom 2 (En-suite)",
+      "storey": 2,
+      "category": "bathroom",
+      "bounds": [5.5, 9.5, 8.0, 11.5],
+      "elevation": 3.48,
+      "height": 2.6,
+      "direct_connections": ["SPACE_BED2"]
+    },
+    {
+      "id": "SPACE_BED3",
+      "name": "Bedroom 3",
+      "storey": 2,
+      "category": "bedroom",
+      "bounds": [3.5, 12.0, 8.0, 16.5],
+      "elevation": 3.5,
+      "height": 3.0,
+      "direct_connections": ["SPACE_HALL_L2", "SPACE_BED3_BATH"]
+    },
+    {
+      "id": "SPACE_BED3_BATH",
+      "name": "Bathroom 3 (En-suite)",
+      "storey": 2,
+      "category": "bathroom",
+      "bounds": [5.5, 11.5, 8.0, 13.5],
+      "elevation": 3.48,
+      "height": 2.6,
+      "direct_connections": ["SPACE_BED3"]
+    }
+  ],
+  "negative_adjacency_rules": [
+    {
+      "space_a": "SPACE_DINING",
+      "space_b": "SPACE_WC_GUEST",
+      "rule": "DISALLOWED_DIRECT_DOOR_OR_VISUAL_ALIGNMENT",
+      "reason": "ห้องน้ำแขกไม่ควรมีประตูเปิดตรงเข้าสู่ห้องรับประทานอาหารเพื่อสุขอนามัยและทัศนียภาพ"
+    },
+    {
+      "space_a": "SPACE_KITCHEN",
+      "space_b": "SPACE_WC_GUEST",
+      "rule": "DISALLOWED_DIRECT_CONNECTION",
+      "reason": "ห้องครัวปรุงอาหารต้องไม่เชื่อมต่อกับห้องน้ำโดยตรงโดยปราศจากแอร์ล็อคหรือทางเดินกั้น"
+    },
+    {
+      "space_a": "SPACE_HALL_L2",
+      "space_b": "SPACE_MBR_BATH",
+      "rule": "DISALLOWED_DIRECT_CONNECTION",
+      "reason": "ห้องน้ำ Master ต้องเป็น En-suite เข้าผ่านห้องนอนเท่านั้น ห้ามมีประตูเปิดสู่โถงกลาง"
+    },
+    {
+      "space_a": "SPACE_HALL_L2",
+      "space_b": "SPACE_BED2_BATH",
+      "rule": "DISALLOWED_DIRECT_CONNECTION",
+      "reason": "ห้องน้ำ Bedroom 2 ต้องเป็น En-suite ห้ามมีประตูเปิดสู่โถงกลาง"
+    },
+    {
+      "space_a": "SPACE_HALL_L2",
+      "space_b": "SPACE_BED3_BATH",
+      "rule": "DISALLOWED_DIRECT_CONNECTION",
+      "reason": "ห้องน้ำ Bedroom 3 ต้องเป็น En-suite ห้ามมีประตูเปิดสู่โถงกลาง"
+    }
+  ]
+}
